@@ -7,12 +7,22 @@
 //
 
 #import "TuWanViewController.h"
+#import "TuWanViewModel.h"
+
 
 @interface TuWanViewController ()
-
+@property (nonatomic,strong)TuWanViewModel *tuWanVM;
 @end
 
 @implementation TuWanViewController
+-(TuWanViewModel *)tuWanVM
+{
+    if(!_tuWanVM)
+    {
+        _tuWanVM = [[TuWanViewModel alloc]initWithType:TuWanTypeCos];
+    }
+    return _tuWanVM;
+}
 +(UINavigationController *)standardTuWanNavi
 {
     static UINavigationController *navi = nil;
@@ -27,6 +37,11 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor greenSeaColor];
     self.title = @"兔玩";
+    
+    [Factory addMenuItemToVC:self];
+    [self.tuWanVM refreshDataCompletionHandle:^(NSError *error) {
+        DDLogVerbose(@"");
+    }];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -17,7 +17,7 @@
 @implementation TuWanDataModel
 
 + (NSDictionary *)objectClassInArray{
-    return @{@"indexpic" : [TuWanDataIndexpicModel class], @"list" : [TuWanDataListModel class]};
+    return @{@"indexpic" : [TuWanDataIndexpicModel class], @"list" : [TuWanDataIndexpicModel class]};
 }
 
 @end
@@ -51,18 +51,6 @@
 
 @end
 
-
-@implementation TuWanDataListModel
-
-+ (NSDictionary *)objectClassInArray{
-    return @{@"showitem" : [TuWanDataListShowitemModel class]};
-}
-+(NSDictionary *)replacedKeyFromPropertyName
-{
-    return @{@"desc":@"description",@"typeName":@"typename"};
-}
-
-@end
 
 
 @implementation TuWanDataListInfochildModel
