@@ -8,7 +8,6 @@
 
 #import "AppDelegate+Category.h"
 #import <AFNetworkActivityIndicatorManager.h>
-
 @implementation AppDelegate (Category)
 
 - (void)initializeWithApplication:(UIApplication *)application{
@@ -34,6 +33,9 @@
         }
     }];
     [[AFNetworkReachabilityManager sharedManager] startMonitoring];
+    
+    //启动友盟统计功能
+    
 }
 
 
