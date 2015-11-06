@@ -11,6 +11,7 @@
 #import "TuWanViewModel.h"
 #import "TuWanImageCell.h"
 #import "iCarousel.h"
+#import "TuWanHtml5ViewController.h"
 
 @interface TuWanListViewController ()<iCarouselDelegate,iCarouselDataSource>
 @property (nonatomic,strong)TuWanViewModel *tuWanVM;
@@ -196,8 +197,26 @@ kRemoveCellSeparator
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    if([self.tuWanVM isHtmlInListForRow:indexPath.row])
+    {
+        TuWanHtml5ViewController *vc = [[TuWanHtml5ViewController alloc]initWithURL:[self.tuWanVM detailURLForRowInList:indexPath.row ]];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
 }
 
+
+
+/**
+ *  滚动栏中被选中后触发
+ */
+-(void)carousel:(iCarousel *)carousel didSelectItemAtIndex:(NSInteger)index
+{
+    if([self.tuWanVM isHtmlInListForRow:index])
+    {
+        TuWanHtml5ViewController *vc = [[TuWanHtml5ViewController alloc]initWithURL:[self.tuWanVM detailURLForRowInIndexPic:index]];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+}
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {

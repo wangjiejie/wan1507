@@ -68,6 +68,7 @@
 		A05410FB1BEC371300F62931 /* TuWanListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A05410FA1BEC371300F62931 /* TuWanListCell.m */; };
 		A05410FE1BEC416B00F62931 /* TuWanImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A05410FD1BEC416B00F62931 /* TuWanImageCell.m */; };
 		A05411011BEC7CE400F62931 /* TuWanImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A05411001BEC7CE400F62931 /* TuWanImageView.m */; };
+		A05411041BEC95E900F62931 /* TuWanHtml5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A05411031BEC95E900F62931 /* TuWanHtml5ViewController.m */; };
 		A0CEE78E1BEB047A002F5DDC /* DuoWanAllHeroesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CEE7621BEB047A002F5DDC /* DuoWanAllHeroesModel.m */; };
 		A0CEE78F1BEB047A002F5DDC /* DuoWanFreeHeroesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CEE7641BEB047A002F5DDC /* DuoWanFreeHeroesModel.m */; };
 		A0CEE7901BEB047A002F5DDC /* DuoWanGiftModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CEE7661BEB047A002F5DDC /* DuoWanGiftModel.m */; };
@@ -202,6 +203,8 @@
 		A05410FD1BEC416B00F62931 /* TuWanImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanImageCell.m; sourceTree = "<group>"; };
 		A05410FF1BEC7CE400F62931 /* TuWanImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanImageView.h; sourceTree = "<group>"; };
 		A05411001BEC7CE400F62931 /* TuWanImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanImageView.m; sourceTree = "<group>"; };
+		A05411021BEC95E900F62931 /* TuWanHtml5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanHtml5ViewController.h; sourceTree = "<group>"; };
+		A05411031BEC95E900F62931 /* TuWanHtml5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanHtml5ViewController.m; sourceTree = "<group>"; };
 		A0CEE7611BEB047A002F5DDC /* DuoWanAllHeroesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuoWanAllHeroesModel.h; sourceTree = "<group>"; };
 		A0CEE7621BEB047A002F5DDC /* DuoWanAllHeroesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuoWanAllHeroesModel.m; sourceTree = "<group>"; };
 		A0CEE7631BEB047A002F5DDC /* DuoWanFreeHeroesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuoWanFreeHeroesModel.h; sourceTree = "<group>"; };
@@ -705,6 +708,8 @@
 				A0CEE7B81BEB06CD002F5DDC /* TuWanViewController.m */,
 				A05410F21BEC365D00F62931 /* TuWanListViewController.h */,
 				A05410F31BEC365D00F62931 /* TuWanListViewController.m */,
+				A05411021BEC95E900F62931 /* TuWanHtml5ViewController.h */,
+				A05411031BEC95E900F62931 /* TuWanHtml5ViewController.m */,
 			);
 			path = "兔玩游戏";
 			sourceTree = "<group>";
@@ -969,6 +974,7 @@
 				A0CEE79F1BEB047A002F5DDC /* DuoWanZBItemListModel.m in Sources */,
 				A0CEE79C1BEB047A002F5DDC /* DuoWanToolMenuModel.m in Sources */,
 				3886C0981BD748830014E661 /* main.m in Sources */,
+				A05411041BEC95E900F62931 /* TuWanHtml5ViewController.m in Sources */,
 				A0CEE7AA1BEB04AB002F5DDC /* TuWanNetManager.m in Sources */,
 				A0CEE7A21BEB047A002F5DDC /* XiMaLaYaRankingListModel.m in Sources */,
 				A0CEE79E1BEB047A002F5DDC /* DuoWanZBCategoryModel.m in Sources */,

@@ -145,7 +145,34 @@
     return [muArr copy];
 }
 
+/** 判断当前数据类型是视频 */
+-(BOOL)isVideoInListForRow:(NSInteger)row
+{
+    return [[self modelForArr:self.dataArr row:row].type isEqualToString:@"video"];
+}
+-(BOOL)isVideoInIndexPicForRow:(NSInteger)row
+{
+    return [[self modelForArr:self.indexPicArr row:row].type isEqualToString:@"video"];
+}
 
+/** 判断当前数据类型是图片 */
+-(BOOL)isPicInListForRow:(NSInteger)row
+{
+    return [[self modelForArr:self.dataArr row:row].type isEqualToString:@"pic"];
+}
+-(BOOL)isPicInIndexPicForRow:(NSInteger)row
+{
+    return [[self modelForArr:self.indexPicArr row:row].type isEqualToString:@"pic"];
+}
 
+/** 判断当前数据类型是html */
+-(BOOL)isHtmlInListForRow:(NSInteger)row
+{
+    return [[self modelForArr:self.dataArr row:row].type isEqualToString:@"all"];
+}
+-(BOOL)isHtmlInIndexPicForRow:(NSInteger)row
+{
+    return [[self modelForArr:self.indexPicArr row:row].type isEqualToString:@"all"];
+}
 
 @end

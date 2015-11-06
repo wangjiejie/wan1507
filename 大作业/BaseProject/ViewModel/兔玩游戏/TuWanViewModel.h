@@ -64,5 +64,16 @@
 /** 返回滚动展示栏某行数据对应的html5链接 */
 -(NSURL *)detailURLForRowInIndexPic:(NSInteger)row;
 
+/** 判断当前数据类型是视频 */
+-(BOOL)isVideoInListForRow:(NSInteger)row;
+-(BOOL)isVideoInIndexPicForRow:(NSInteger)row;
+
+/** 判断当前数据类型是图片 */
+-(BOOL)isPicInListForRow:(NSInteger)row;
+-(BOOL)isPicInIndexPicForRow:(NSInteger)row;
+
+/** 判断当前数据类型是html */
+-(BOOL)isHtmlInListForRow:(NSInteger)row;
+-(BOOL)isHtmlInIndexPicForRow:(NSInteger)row;
 
 @end
