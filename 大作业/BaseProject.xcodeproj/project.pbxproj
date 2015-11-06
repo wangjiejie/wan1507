@@ -64,6 +64,9 @@
 		3886C0BB1BD74AE90014E661 /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3886C0BA1BD74AE90014E661 /* BaseViewModel.m */; };
 		3886C0BE1BD74AFE0014E661 /* BaseNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3886C0BD1BD74AFE0014E661 /* BaseNetManager.m */; };
 		3886C0C11BD74B090014E661 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3886C0C01BD74B090014E661 /* BaseModel.m */; };
+		A05410F41BEC365D00F62931 /* TuWanListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A05410F31BEC365D00F62931 /* TuWanListViewController.m */; };
+		A05410FB1BEC371300F62931 /* TuWanListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A05410FA1BEC371300F62931 /* TuWanListCell.m */; };
+		A05410FE1BEC416B00F62931 /* TuWanImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A05410FD1BEC416B00F62931 /* TuWanImageCell.m */; };
 		A0CEE78E1BEB047A002F5DDC /* DuoWanAllHeroesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CEE7621BEB047A002F5DDC /* DuoWanAllHeroesModel.m */; };
 		A0CEE78F1BEB047A002F5DDC /* DuoWanFreeHeroesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CEE7641BEB047A002F5DDC /* DuoWanFreeHeroesModel.m */; };
 		A0CEE7901BEB047A002F5DDC /* DuoWanGiftModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CEE7661BEB047A002F5DDC /* DuoWanGiftModel.m */; };
@@ -190,6 +193,12 @@
 		3886C0C21BD74B430014E661 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		4329DABFE5AD654FE71597C9 /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		5EAAD623A23724C816F8DC02 /* libPods-BaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A05410F21BEC365D00F62931 /* TuWanListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanListViewController.h; sourceTree = "<group>"; };
+		A05410F31BEC365D00F62931 /* TuWanListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanListViewController.m; sourceTree = "<group>"; };
+		A05410F91BEC371300F62931 /* TuWanListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanListCell.h; sourceTree = "<group>"; };
+		A05410FA1BEC371300F62931 /* TuWanListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanListCell.m; sourceTree = "<group>"; };
+		A05410FC1BEC416B00F62931 /* TuWanImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanImageCell.h; sourceTree = "<group>"; };
+		A05410FD1BEC416B00F62931 /* TuWanImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanImageCell.m; sourceTree = "<group>"; };
 		A0CEE7611BEB047A002F5DDC /* DuoWanAllHeroesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuoWanAllHeroesModel.h; sourceTree = "<group>"; };
 		A0CEE7621BEB047A002F5DDC /* DuoWanAllHeroesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuoWanAllHeroesModel.m; sourceTree = "<group>"; };
 		A0CEE7631BEB047A002F5DDC /* DuoWanFreeHeroesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuoWanFreeHeroesModel.h; sourceTree = "<group>"; };
@@ -553,6 +562,9 @@
 		3886C0B51BD74A4A0014E661 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A05410F61BEC36FE00F62931 /* 多玩 */,
+				A05410F71BEC36FE00F62931 /* 兔玩游戏 */,
+				A05410F81BEC36FE00F62931 /* 喜马拉雅 */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -581,6 +593,31 @@
 				3886C0BA1BD74AE90014E661 /* BaseViewModel.m */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A05410F61BEC36FE00F62931 /* 多玩 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "多玩";
+			sourceTree = "<group>";
+		};
+		A05410F71BEC36FE00F62931 /* 兔玩游戏 */ = {
+			isa = PBXGroup;
+			children = (
+				A05410F91BEC371300F62931 /* TuWanListCell.h */,
+				A05410FA1BEC371300F62931 /* TuWanListCell.m */,
+				A05410FC1BEC416B00F62931 /* TuWanImageCell.h */,
+				A05410FD1BEC416B00F62931 /* TuWanImageCell.m */,
+			);
+			path = "兔玩游戏";
+			sourceTree = "<group>";
+		};
+		A05410F81BEC36FE00F62931 /* 喜马拉雅 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "喜马拉雅";
 			sourceTree = "<group>";
 		};
 		A0CEE7601BEB047A002F5DDC /* 多玩 */ = {
@@ -661,6 +698,8 @@
 			children = (
 				A0CEE7B71BEB06CD002F5DDC /* TuWanViewController.h */,
 				A0CEE7B81BEB06CD002F5DDC /* TuWanViewController.m */,
+				A05410F21BEC365D00F62931 /* TuWanListViewController.h */,
+				A05410F31BEC365D00F62931 /* TuWanListViewController.m */,
 			);
 			path = "兔玩游戏";
 			sourceTree = "<group>";
@@ -887,9 +926,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A05410FE1BEC416B00F62931 /* TuWanImageCell.m in Sources */,
 				A0CEE7991BEB047A002F5DDC /* DuoWanLolczModel.m in Sources */,
 				A0CEE7C51BEB442D002F5DDC /* Factory.m in Sources */,
 				3886C0BE1BD74AFE0014E661 /* BaseNetManager.m in Sources */,
+				A05410F41BEC365D00F62931 /* TuWanListViewController.m in Sources */,
 				A0CEE7BF1BEB0722002F5DDC /* RankListViewController.m in Sources */,
 				A0CEE7BC1BEB06F3002F5DDC /* MyInfoViewController.m in Sources */,
 				A0CEE7941BEB047A002F5DDC /* DuoWanHeroSkinModel.m in Sources */,
@@ -905,6 +946,7 @@
 				A0CEE7951BEB047A002F5DDC /* DuoWanHeroSoundModel.m in Sources */,
 				3885C8F91BE8E96A009441EA /* PSCollectionView.m in Sources */,
 				3886C09B1BD748830014E661 /* AppDelegate.m in Sources */,
+				A05410FB1BEC371300F62931 /* TuWanListCell.m in Sources */,
 				A0CEE7971BEB047A002F5DDC /* DuoWanHeroWeekModel.m in Sources */,
 				A0CEE7931BEB047A002F5DDC /* DuoWanHeroDetailModel.m in Sources */,
 				3885C8981BE8E88D009441EA /* iCarousel.m in Sources */,

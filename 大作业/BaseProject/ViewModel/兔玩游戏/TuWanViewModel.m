@@ -133,7 +133,17 @@
     return [NSURL URLWithString:[self modelForArr:self.indexPicArr row:row].html5];
 }
 
-
+/** 返回列表中某行数据的图片链接数组 */
+-(NSArray *)iconURLSForRowInList:(NSInteger)row
+{
+    NSArray *arr = [self modelForArr:self.dataArr row:row].showitem;
+    NSMutableArray *muArr = [NSMutableArray new];
+    for (int i = 0; i < arr.count; i ++) {
+        TuWanDataIndexpicShowitemModel *model = arr[i];
+        [muArr addObject:[NSURL URLWithString:model.pic]];
+    }
+    return [muArr copy];
+}
 
 
 

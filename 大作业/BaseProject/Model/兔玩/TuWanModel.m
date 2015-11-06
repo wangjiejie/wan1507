@@ -53,18 +53,5 @@
 
 
 
-@implementation TuWanDataListInfochildModel
-
-@end
-
-
-@implementation TuWanDataListShowitemModel
-
-@end
-
-
-@implementation TuWanDataListShowitemInfoModel
-
-@end
 
 

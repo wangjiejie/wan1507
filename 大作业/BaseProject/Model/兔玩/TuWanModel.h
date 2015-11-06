@@ -9,7 +9,7 @@
 #import "BaseModel.h"
 
 
-@class TuWanDataModel,TuWanDataIndexpicModel,TuWanDataIndexpicInfochildModel,TuWanDataIndexpicShowitemModel,TuWanDataIndexpicShowitemInfoModel,TuWanDataListInfochildModel,TuWanDataListShowitemModel,TuWanDataListShowitemInfoModel;
+@class TuWanDataModel,TuWanDataIndexpicModel,TuWanDataIndexpicInfochildModel,TuWanDataIndexpicShowitemModel,TuWanDataIndexpicShowitemInfoModel;
 
 @interface TuWanModel : BaseModel
 
@@ -123,37 +123,4 @@
 @end
 
 
-@interface TuWanDataListInfochildModel : NSObject
-
-@property (nonatomic, copy) NSString *later;
-
-@property (nonatomic, copy) NSString *cn;
-
-@property (nonatomic, copy) NSString *facial;
-
-@property (nonatomic, copy) NSString *feature;
-
-@property (nonatomic, copy) NSString *role;
-
-@property (nonatomic, copy) NSString *shoot;
-
-@end
-
-@interface TuWanDataListShowitemModel : NSObject
-
-@property (nonatomic, copy) NSString *pic;
-
-@property (nonatomic, copy) NSString *text;
-
-@property (nonatomic, strong) TuWanDataListShowitemInfoModel *info;
-
-@end
-
-@interface TuWanDataListShowitemInfoModel : NSObject
-
-@property (nonatomic, copy) NSString *width;
-
-@property (nonatomic, assign) NSInteger height;
-
-@end
 

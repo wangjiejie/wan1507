@@ -33,6 +33,9 @@
 /** 判断某一行数据是否有图 */
 -(BOOL)containImages:(NSInteger)row;
 
+/** 返回列表中某行数据的图片链接数组 */
+-(NSArray *)iconURLSForRowInList:(NSInteger)row;
+
 /** 返回列表中某行数据的题目 */
 -(NSString *)titleForRowInList:(NSInteger)row;
 
@@ -47,14 +50,19 @@
 
 /** 返回滚动展示栏的图片 */
 -(NSURL *)iconURLForRowInIndexPic:(NSInteger)row;
+
+
 /** 返回滚动展示栏的文字 */
 -(NSString *)titleForRowInIndexPic:(NSInteger)row;
+
 /** 返回滚动展示栏的图片数量 */
 @property (nonatomic)NSInteger indexPicNumber;
 
 /** 获取列表中某行数据对应的html5链接 */
 -(NSURL *)detailURLForRowInList:(NSInteger)row;
+
 /** 返回滚动展示栏某行数据对应的html5链接 */
 -(NSURL *)detailURLForRowInIndexPic:(NSInteger)row;
+
 
 @end

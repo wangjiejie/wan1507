@@ -3,6 +3,7 @@
 # Uncomment this line if you're using Swift
 # use_frameworks!
 
+inhibit_all_warnings!
 target 'BaseProject' do
 
 pod 'AFNetworking'
@@ -24,6 +25,6 @@ pod 'AsyncDisplayKit'
 pod 'RESideMenu'
 pod 'SWTableViewCell'
 pod 'MWPhotoBrowser'
-
+pod 'WMPageController'
 end
 

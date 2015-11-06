@@ -90,6 +90,8 @@ static const int ddLogLevel = DDLogLevelError;
 /**  自定义工厂类，功能类，其中存放各种自定义方法 */
 #import "Factory.h"  
 
+#import <WMPageController.h>
+
 #endif /* PrefixHeader_pch */
 
 
