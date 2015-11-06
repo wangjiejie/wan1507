@@ -8,11 +8,12 @@
 
 #import "TuWanListCell.h"
 
+
 @implementation TuWanListCell
 
-- (UIImageView *)iconIV {
+- (TuWanImageView *)iconIV {
     if(_iconIV == nil) {
-        _iconIV = [[UIImageView alloc] init];
+        _iconIV = [[TuWanImageView alloc] init];
         //内容模式，保持比例，填充满
        // _iconIV.contentMode = UIViewContentModeScaleAspectFit;
     }

@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TuWanImageView.h"
 
 @interface TuWanListCell : UITableViewCell
 
 /** 左侧图片 */
-@property (nonatomic,strong)UIImageView *iconIV;
+@property (nonatomic,strong)TuWanImageView *iconIV;
 
 /** 题目标签 */
 @property (nonatomic,strong)UILabel *titleLb;

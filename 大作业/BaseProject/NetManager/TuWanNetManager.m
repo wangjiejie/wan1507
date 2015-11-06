@@ -80,7 +80,7 @@
             break;
         case TuWanTypeMeiNv:
             [params setObject:@"cos1" forKey:@"typechild"];
-            [params setObject:@"cos" forKey:@"class"];
+            [params setObject:@"heronews" forKey:@"class"];
             [params setObject:@"美女" forKey:@"mod"];
             [params setObject:@"indexpic" forKey:@"classmore"];
             break;

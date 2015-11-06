@@ -37,7 +37,9 @@
     [[AFNetworkReachabilityManager sharedManager] startMonitoring];
     
     //启动友盟统计功能
-    [MobClick startWithAppkey:AppKey reportPolicy:BATCH channelId:nil];}
+    [MobClick startWithAppkey:AppKey reportPolicy:BATCH channelId:nil];
+    [MobClick setLogEnabled:YES];
+}
 
 
 
