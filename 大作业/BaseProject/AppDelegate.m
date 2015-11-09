@@ -12,7 +12,6 @@
 #import "TuWanViewController.h"
 
 
-
 @interface AppDelegate ()
 
 @end
@@ -62,10 +61,6 @@
     }
     return _window;
 }
-//生成放有兔玩游戏界面的导航控制器
-//-(UINavigationController *)tuwanNavi
-//{
-//    
-//}
+
 
 @end

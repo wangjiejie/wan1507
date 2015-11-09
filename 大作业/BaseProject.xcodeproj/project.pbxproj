@@ -69,6 +69,12 @@
 		A05410FE1BEC416B00F62931 /* TuWanImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A05410FD1BEC416B00F62931 /* TuWanImageCell.m */; };
 		A05411011BEC7CE400F62931 /* TuWanImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A05411001BEC7CE400F62931 /* TuWanImageView.m */; };
 		A05411041BEC95E900F62931 /* TuWanHtml5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A05411031BEC95E900F62931 /* TuWanHtml5ViewController.m */; };
+		A0686EF71BF029CD00E810B6 /* TuWanPicViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0686EF61BF029CD00E810B6 /* TuWanPicViewModel.m */; };
+		A0686EFC1BF02A9400E810B6 /* TuWanPicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0686EF91BF02A9400E810B6 /* TuWanPicModel.m */; };
+		A0686EFD1BF02A9400E810B6 /* TuWanVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0686EFB1BF02A9400E810B6 /* TuWanVideoModel.m */; };
+		A0686F001BF02EA100E810B6 /* TuWanPicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0686EFF1BF02EA100E810B6 /* TuWanPicViewController.m */; };
+		A0686F031BF0496200E810B6 /* XiMaLaYaCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0686F021BF0496200E810B6 /* XiMaLaYaCategoryCell.m */; };
+		A08058691BF072960013862F /* XiMaLaYaCategoryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A08058681BF072960013862F /* XiMaLaYaCategoryViewModel.m */; };
 		A0CEE78E1BEB047A002F5DDC /* DuoWanAllHeroesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CEE7621BEB047A002F5DDC /* DuoWanAllHeroesModel.m */; };
 		A0CEE78F1BEB047A002F5DDC /* DuoWanFreeHeroesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CEE7641BEB047A002F5DDC /* DuoWanFreeHeroesModel.m */; };
 		A0CEE7901BEB047A002F5DDC /* DuoWanGiftModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CEE7661BEB047A002F5DDC /* DuoWanGiftModel.m */; };
@@ -205,6 +211,18 @@
 		A05411001BEC7CE400F62931 /* TuWanImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanImageView.m; sourceTree = "<group>"; };
 		A05411021BEC95E900F62931 /* TuWanHtml5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanHtml5ViewController.h; sourceTree = "<group>"; };
 		A05411031BEC95E900F62931 /* TuWanHtml5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanHtml5ViewController.m; sourceTree = "<group>"; };
+		A0686EF51BF029CD00E810B6 /* TuWanPicViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanPicViewModel.h; sourceTree = "<group>"; };
+		A0686EF61BF029CD00E810B6 /* TuWanPicViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanPicViewModel.m; sourceTree = "<group>"; };
+		A0686EF81BF02A9400E810B6 /* TuWanPicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanPicModel.h; sourceTree = "<group>"; };
+		A0686EF91BF02A9400E810B6 /* TuWanPicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanPicModel.m; sourceTree = "<group>"; };
+		A0686EFA1BF02A9400E810B6 /* TuWanVideoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanVideoModel.h; sourceTree = "<group>"; };
+		A0686EFB1BF02A9400E810B6 /* TuWanVideoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanVideoModel.m; sourceTree = "<group>"; };
+		A0686EFE1BF02EA100E810B6 /* TuWanPicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanPicViewController.h; sourceTree = "<group>"; };
+		A0686EFF1BF02EA100E810B6 /* TuWanPicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanPicViewController.m; sourceTree = "<group>"; };
+		A0686F011BF0496200E810B6 /* XiMaLaYaCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiMaLaYaCategoryCell.h; sourceTree = "<group>"; };
+		A0686F021BF0496200E810B6 /* XiMaLaYaCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiMaLaYaCategoryCell.m; sourceTree = "<group>"; };
+		A08058671BF072960013862F /* XiMaLaYaCategoryViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiMaLaYaCategoryViewModel.h; sourceTree = "<group>"; };
+		A08058681BF072960013862F /* XiMaLaYaCategoryViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiMaLaYaCategoryViewModel.m; sourceTree = "<group>"; };
 		A0CEE7611BEB047A002F5DDC /* DuoWanAllHeroesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuoWanAllHeroesModel.h; sourceTree = "<group>"; };
 		A0CEE7621BEB047A002F5DDC /* DuoWanAllHeroesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuoWanAllHeroesModel.m; sourceTree = "<group>"; };
 		A0CEE7631BEB047A002F5DDC /* DuoWanFreeHeroesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuoWanFreeHeroesModel.h; sourceTree = "<group>"; };
@@ -624,6 +642,8 @@
 		A05410F81BEC36FE00F62931 /* 喜马拉雅 */ = {
 			isa = PBXGroup;
 			children = (
+				A0686F011BF0496200E810B6 /* XiMaLaYaCategoryCell.h */,
+				A0686F021BF0496200E810B6 /* XiMaLaYaCategoryCell.m */,
 			);
 			path = "喜马拉雅";
 			sourceTree = "<group>";
@@ -675,6 +695,10 @@
 		A0CEE7861BEB047A002F5DDC /* 兔玩 */ = {
 			isa = PBXGroup;
 			children = (
+				A0686EF81BF02A9400E810B6 /* TuWanPicModel.h */,
+				A0686EF91BF02A9400E810B6 /* TuWanPicModel.m */,
+				A0686EFA1BF02A9400E810B6 /* TuWanVideoModel.h */,
+				A0686EFB1BF02A9400E810B6 /* TuWanVideoModel.m */,
 				A0CEE7871BEB047A002F5DDC /* TuWanModel.h */,
 				A0CEE7881BEB047A002F5DDC /* TuWanModel.m */,
 			);
@@ -710,6 +734,8 @@
 				A05410F31BEC365D00F62931 /* TuWanListViewController.m */,
 				A05411021BEC95E900F62931 /* TuWanHtml5ViewController.h */,
 				A05411031BEC95E900F62931 /* TuWanHtml5ViewController.m */,
+				A0686EFE1BF02EA100E810B6 /* TuWanPicViewController.h */,
+				A0686EFF1BF02EA100E810B6 /* TuWanPicViewController.m */,
 			);
 			path = "兔玩游戏";
 			sourceTree = "<group>";
@@ -744,6 +770,8 @@
 			children = (
 				A0CEE7C61BEB4726002F5DDC /* TuWanViewModel.h */,
 				A0CEE7C71BEB4726002F5DDC /* TuWanViewModel.m */,
+				A0686EF51BF029CD00E810B6 /* TuWanPicViewModel.h */,
+				A0686EF61BF029CD00E810B6 /* TuWanPicViewModel.m */,
 			);
 			path = "兔玩游戏";
 			sourceTree = "<group>";
@@ -758,6 +786,8 @@
 		A0CEE7B31BEB05C5002F5DDC /* 喜马拉雅 */ = {
 			isa = PBXGroup;
 			children = (
+				A08058671BF072960013862F /* XiMaLaYaCategoryViewModel.h */,
+				A08058681BF072960013862F /* XiMaLaYaCategoryViewModel.m */,
 			);
 			path = "喜马拉雅";
 			sourceTree = "<group>";
@@ -937,6 +967,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A05410FE1BEC416B00F62931 /* TuWanImageCell.m in Sources */,
+				A0686F001BF02EA100E810B6 /* TuWanPicViewController.m in Sources */,
 				A0CEE7991BEB047A002F5DDC /* DuoWanLolczModel.m in Sources */,
 				A0CEE7C51BEB442D002F5DDC /* Factory.m in Sources */,
 				3886C0BE1BD74AFE0014E661 /* BaseNetManager.m in Sources */,
@@ -944,8 +975,10 @@
 				A0CEE7BF1BEB0722002F5DDC /* RankListViewController.m in Sources */,
 				A0CEE7BC1BEB06F3002F5DDC /* MyInfoViewController.m in Sources */,
 				A0CEE7941BEB047A002F5DDC /* DuoWanHeroSkinModel.m in Sources */,
+				A08058691BF072960013862F /* XiMaLaYaCategoryViewModel.m in Sources */,
 				A05411011BEC7CE400F62931 /* TuWanImageView.m in Sources */,
 				3804CE541BD758F10046C8C8 /* NSString+QRCode.m in Sources */,
+				A0686F031BF0496200E810B6 /* XiMaLaYaCategoryCell.m in Sources */,
 				A0CEE79D1BEB047A002F5DDC /* DuoWanVideoesNormalModel.m in Sources */,
 				A0CEE7A01BEB047A002F5DDC /* TuWanModel.m in Sources */,
 				A0CEE79B1BEB047A002F5DDC /* DuoWanSumAbilityModel.m in Sources */,
@@ -955,8 +988,11 @@
 				3804CE531BD758F10046C8C8 /* NSString+PJR.m in Sources */,
 				A0CEE7961BEB047A002F5DDC /* DuoWanHeroSuggestedGiftAndRunModel.m in Sources */,
 				A0CEE7951BEB047A002F5DDC /* DuoWanHeroSoundModel.m in Sources */,
+				A0686EFD1BF02A9400E810B6 /* TuWanVideoModel.m in Sources */,
+				A0686EFC1BF02A9400E810B6 /* TuWanPicModel.m in Sources */,
 				3885C8F91BE8E96A009441EA /* PSCollectionView.m in Sources */,
 				3886C09B1BD748830014E661 /* AppDelegate.m in Sources */,
+				A0686EF71BF029CD00E810B6 /* TuWanPicViewModel.m in Sources */,
 				A05410FB1BEC371300F62931 /* TuWanListCell.m in Sources */,
 				A0CEE7971BEB047A002F5DDC /* DuoWanHeroWeekModel.m in Sources */,
 				A0CEE7931BEB047A002F5DDC /* DuoWanHeroDetailModel.m in Sources */,
@@ -1100,6 +1136,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BaseProject/Vendor/umeng_ios_social_sdk_4.2-2.5_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
@@ -1127,6 +1164,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BaseProject/Vendor/umeng_ios_social_sdk_4.2-2.5_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",

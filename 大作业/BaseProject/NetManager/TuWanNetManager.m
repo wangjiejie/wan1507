@@ -12,6 +12,8 @@
 #define kPath  @"http://cache.tuwan.com/app/"
 #define kAppId @"appid":@1
 #define kAppVer @"appver":@2.1
+#define kTuWanPath      @"http://cache.tuwan.com/app/"
+#define kTuWanDetailPath     @"http://api.tuwan.com/app/"
 
 @implementation TuWanNetManager
 
@@ -90,7 +92,22 @@
     //因为兔玩服务器的要求，传入参数不能为中文，需要转化为%号形式
     NSString *path = [self percentPathWithPath:kPath params:params];
     return [self GET:path parameters:nil completionHandler:^(id responseObj, NSError *error) {
-        completionHandle([TuWanModel objectWithKeyValues:responseObj], error);
+        completionHandle([TuWanModel mj_objectWithKeyValues:responseObj], error);
+    }];
+}
+
+
++ (id)getVideoDetailWithId:(NSString *)aid kCompletionHandle{
+    return [self GET:[self percentPathWithPath:kTuWanDetailPath params:@{kAppId, @"aid": aid}] parameters:nil completionHandler:^(id responseObj, NSError *error) {
+        //这里一定要用firstObj方法来取，不能用[0]。 如果数组为空  第一种不会崩溃，值为nil。  第二种会数组越界
+        completionHandle([TuWanVideoModel mj_objectArrayWithKeyValuesArray:responseObj].firstObject, error);
+    }];
+}
+
++ (id)getPicDetailWithId:(NSString *)aid kCompletionHandle{
+    return [self GET:[self percentPathWithPath:kTuWanDetailPath params:@{kAppId, @"aid": aid}] parameters:nil completionHandler:^(id responseObj, NSError *error) {
+        //这里一定要用firstObj方法来取，不能用[0]。 如果数组为空  第一种不会崩溃，值为nil。  第二种会数组越界
+        completionHandle([TuWanPicModel mj_objectArrayWithKeyValuesArray:responseObj].firstObject, error);
     }];
 }
 @end

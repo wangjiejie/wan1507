@@ -12,6 +12,7 @@
 #import "TuWanImageCell.h"
 #import "iCarousel.h"
 #import "TuWanHtml5ViewController.h"
+#import "TuWanPicViewController.h"
 
 @interface TuWanListViewController ()<iCarouselDelegate,iCarouselDataSource>
 @property (nonatomic,strong)TuWanViewModel *tuWanVM;
@@ -202,6 +203,12 @@ kRemoveCellSeparator
         TuWanHtml5ViewController *vc = [[TuWanHtml5ViewController alloc]initWithURL:[self.tuWanVM detailURLForRowInList:indexPath.row ]];
         [self.navigationController pushViewController:vc animated:YES];
     }
+    if([self.tuWanVM isPicInListForRow:indexPath.row])
+    {
+        TuWanPicViewController *vc = [[TuWanPicViewController alloc]initWithAid:[self.tuWanVM aidInListForRow:indexPath.row]];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    
 }
 
 
@@ -214,6 +221,11 @@ kRemoveCellSeparator
     if([self.tuWanVM isHtmlInListForRow:index])
     {
         TuWanHtml5ViewController *vc = [[TuWanHtml5ViewController alloc]initWithURL:[self.tuWanVM detailURLForRowInIndexPic:index]];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    if([self.tuWanVM isPicInIndexPicForRow:index])
+    {
+        TuWanPicViewController *vc = [[TuWanPicViewController alloc]initWithAid:[self.tuWanVM aidInIndexPicForRow:index]];
         [self.navigationController pushViewController:vc animated:YES];
     }
 }

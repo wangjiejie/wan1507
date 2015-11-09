@@ -10,4 +10,7 @@
 
 @interface RankListViewController : UIViewController
 
+/** 制作单例的原因：*/
++(UINavigationController *)defaultNavi;
+
 @end

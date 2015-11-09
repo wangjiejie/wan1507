@@ -9,7 +9,12 @@
 #import "AppDelegate+Category.h"
 #import <AFNetworkActivityIndicatorManager.h>
 #import "MobClick.h"
+#import <MLTransition.h>
+
+
 #define AppKey @"563af08d67e58e4a4e0026b7"
+
+
 @implementation AppDelegate (Category)
 
 - (void)initializeWithApplication:(UIApplication *)application{
@@ -39,6 +44,12 @@
     //启动友盟统计功能
     [MobClick startWithAppkey:AppKey reportPolicy:BATCH channelId:nil];
     [MobClick setLogEnabled:YES];
+    
+    
+    /**
+     *  解决因为使用leftitem导致iOS自带的右划返回前一页失效问题
+     */
+    [MLTransition validatePanPackWithMLTransitionGestureRecognizerType:MLTransitionGestureRecognizerTypeScreenEdgePan];
 }
 
 

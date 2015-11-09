@@ -74,11 +74,11 @@
     return [self GET:kHeroPath parameters:params completionHandler:^(id responseObj, NSError *error) {
         switch (type) {
             case HeroTypeFree: {
-                completionHandle([DuoWanFreeHeroesModel objectWithKeyValues:responseObj], error);
+                completionHandle([DuoWanFreeHeroesModel mj_objectWithKeyValues:responseObj], error);
                 break;
             }
             case HeroTypeAll: {
-                completionHandle([DuoWanAllHeroesModel objectWithKeyValues:responseObj], error);
+                completionHandle([DuoWanAllHeroesModel mj_objectWithKeyValues:responseObj], error);
                 break;
             }
             default: {
@@ -92,7 +92,7 @@
 
 + (id)getHeroSkinsWithHeroName:(NSString *)heroName completionHandle:(void (^)(id, NSError *))completionHandle{
     return [self GET:kHeroSkinPath parameters:@{kOSType, kV, kVersionName, @"hero": heroName} completionHandler:^(id responseObj, NSError *error) {
-        completionHandle([DuoWanHeroSkinModel objectArrayWithKeyValuesArray:responseObj], error);
+        completionHandle([DuoWanHeroSkinModel mj_objectArrayWithKeyValuesArray:responseObj], error);
     }];
 }
 
@@ -105,13 +105,13 @@
 
 + (id)getHeroVideosWithPage:(NSInteger)page tag:(NSString *)enName completionHandle:(void (^)(id, NSError *))completionHandle{
     return [self GET:kHeroVideoPath parameters:@{kVersionName, kOSType, @"action": @"l", @"p": @(page), @"src": @"letv", @"tag": enName} completionHandler:^(id responseObj, NSError *error) {
-        completionHandle([DuoWanVideoesNormalesarrayModel objectArrayWithKeyValuesArray:responseObj], error);
+        completionHandle([DuoWanVideoesNormalesarrayModel mj_objectArrayWithKeyValuesArray:responseObj], error);
     }];
 }
 
 + (id)getHeroCZWithHeroName:(NSString *)enName completionHandle:(void (^)(id, NSError *))completionHandle{
     return [self GET:kHeroCZPath parameters:@{kV, kOSType, @"limit": @7, @"championName": enName} completionHandler:^(id responseObj, NSError *error) {
-        completionHandle([DuoWanLolczModel objectArrayWithKeyValuesArray:responseObj], error);
+        completionHandle([DuoWanLolczModel mj_objectArrayWithKeyValuesArray:responseObj], error);
     }];
 }
 
@@ -119,7 +119,7 @@
 {
     return [self GET:kHeroDetailPath parameters:@{kV, kOSType, @"her oName": enName} completionHandler:^(id responseObj, NSError *error) {
         
-        completionHandle([DuoWanHeroDetailModel objectWithKeyValues:responseObj], error);
+        completionHandle([DuoWanHeroDetailModel mj_objectWithKeyValues:responseObj], error);
     }];
 }
 
@@ -135,7 +135,7 @@
 +(id)getHeroChangeWithHeroName:(NSString *)enName completionHandle:(void (^)(id, NSError *))completionHandle
 {
     return [self GET:kHeroInfoPath parameters:@{kV, kOSType, @"name": enName} completionHandler:^(id responseObj, NSError *error) {
-        completionHandle([DuoWanHeroChangeModel objectWithKeyValues:responseObj], error);
+        completionHandle([DuoWanHeroChangeModel mj_objectWithKeyValues:responseObj], error);
     }];
 }
 
@@ -143,56 +143,56 @@
 +(id)getHeroWeekDataWithHeroId:(NSInteger)heroId completionHandle:(void (^)(id, NSError *))completionHandle
 {
     return [self GET:kHeroWeekDataPath parameters:@{@"heroId": @(heroId)} completionHandler:^(id responseObj, NSError *error) {
-        completionHandle([DuoWanHeroWeekModel objectWithKeyValues:responseObj], error);
+        completionHandle([DuoWanHeroWeekModel mj_objectWithKeyValues:responseObj], error);
     }];
 }
 
 
 + (id)getToolMenuCompletionHandle:(void (^)(id, NSError *))completionHandle{
     return [self GET:kToolMenuPath parameters:@{kV, kVersionName, kOSType, @"category": @"database"} completionHandler:^(id responseObj, NSError *error) {
-        completionHandle([DuoWanToolMenuModel objectArrayWithKeyValuesArray:responseObj], error);
+        completionHandle([DuoWanToolMenuModel mj_objectArrayWithKeyValuesArray:responseObj], error);
     }];
 }
 
 + (id)getZBCategoryCompletionHandle:(void (^)(id, NSError *))completionHandle{
     return [self GET:kZBCategoryPath parameters:@{} completionHandler:^(id responseObj, NSError *error) {
-        completionHandle([DuoWanZBCategoryModel objectArrayWithKeyValuesArray:responseObj], error);
+        completionHandle([DuoWanZBCategoryModel mj_objectArrayWithKeyValuesArray:responseObj], error);
     }];
 }
 
 + (id)getZBItemListWithTag:(NSString *)tag completionHandle:(void (^)(id, NSError *))completionHandle{
     return [self GET:kZBItemListPath parameters:@{@"tag": tag, kV, kOSType, kVersionName} completionHandler:^(id responseObj, NSError *error) {
-        completionHandle([DuoWanZBItemListModel objectArrayWithKeyValuesArray:responseObj], error);
+        completionHandle([DuoWanZBItemListModel mj_objectArrayWithKeyValuesArray:responseObj], error);
     }];
 }
 
 + (id)getItemDetailWithItemId:(NSInteger)itemId completionHandle:(void (^)(id, NSError *))completionHandle{
     return [self GET:kItemDetailPath parameters:@{kV, kOSType, @"id": @(itemId)} completionHandler:^(id responseObj, NSError *error) {
-        completionHandle([DuoWanItemDetailModel objectWithKeyValues:responseObj], error);
+        completionHandle([DuoWanItemDetailModel mj_objectWithKeyValues:responseObj], error);
     }];
 }
 
 + (id)getGIftCompletionHandle:(void (^)(id, NSError *))completionHandle{
     return [self GET:kGiftPath parameters:@{kV, kOSType} completionHandler:^(id responseObj, NSError *error) {
-        completionHandle([DuoWanGiftModel objectWithKeyValues:responseObj], error);
+        completionHandle([DuoWanGiftModel mj_objectWithKeyValues:responseObj], error);
     }];
 }
 
 + (id)getRunesCompletionHandle:(void (^)(id, NSError *))completionHandle{
     return [self GET:kRunesPath parameters:@{kV, kOSType} completionHandler:^(id responseObj, NSError *error) {
-        completionHandle([DuoWanRunesModel objectWithKeyValues:responseObj], error);
+        completionHandle([DuoWanRunesModel mj_objectWithKeyValues:responseObj], error);
     }];
 }
 
 + (id)getSumAbilityCompletionHandle:(void (^)(id, NSError *))completionHandle{
     return [self GET:kSumAbilityPath parameters:@{kV, kOSType} completionHandler:^(id responseObj, NSError *error) {
-        completionHandle([DuoWanSumAbilityModel objectWithKeyValues:responseObj], error);
+        completionHandle([DuoWanSumAbilityModel mj_objectWithKeyValues:responseObj], error);
     }];
 }
 
 + (id)getHeroBestGroupCompletionHandle:(void (^)(id, NSError *))completionHandle{
     return [self GET:kBestGroupPath parameters:@{kV, kOSType} completionHandler:^(id responseObj, NSError *error) {
-        completionHandle([DuoWanHeroBestGroupModel objectArrayWithKeyValuesArray:responseObj], error);
+        completionHandle([DuoWanHeroBestGroupModel mj_objectArrayWithKeyValuesArray:responseObj], error);
     }];
 }
 
