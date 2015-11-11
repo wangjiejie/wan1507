@@ -20,9 +20,9 @@ PODS:
   - AFNetworking/UIKit (2.6.2):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - AsyncDisplayKit (1.9):
-    - AsyncDisplayKit/ASDealloc2MainObject (= 1.9)
-  - AsyncDisplayKit/ASDealloc2MainObject (1.9)
+  - AsyncDisplayKit (1.9.1):
+    - AsyncDisplayKit/ASDealloc2MainObject (= 1.9.1)
+  - AsyncDisplayKit/ASDealloc2MainObject (1.9.1)
   - BlocksKit (2.2.5):
     - BlocksKit/All (= 2.2.5)
   - BlocksKit/All (2.2.5):
@@ -97,7 +97,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   AFNetworking: 7f317038a9710cabfa43ec56396b307b45df72ab
-  AsyncDisplayKit: 957560ccfd103fdc8f53605e11e4bc30b16aaf67
+  AsyncDisplayKit: 7bf2b3fa444284f80fd0c1e36655e324549f79d2
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
   CocoaAsyncSocket: f5783bdedd232d91b89769bc4b5a1580aed518ad
   CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0

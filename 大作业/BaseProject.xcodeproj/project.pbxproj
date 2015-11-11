@@ -74,7 +74,12 @@
 		A0686EFD1BF02A9400E810B6 /* TuWanVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0686EFB1BF02A9400E810B6 /* TuWanVideoModel.m */; };
 		A0686F001BF02EA100E810B6 /* TuWanPicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0686EFF1BF02EA100E810B6 /* TuWanPicViewController.m */; };
 		A0686F031BF0496200E810B6 /* XiMaLaYaCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0686F021BF0496200E810B6 /* XiMaLaYaCategoryCell.m */; };
+		A0769A141BF1DF1300C0CFAE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0769A131BF1DF1300C0CFAE /* AVFoundation.framework */; };
+		A0769A171BF1DF5B00C0CFAE /* PlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0769A161BF1DF5B00C0CFAE /* PlayView.m */; };
 		A08058691BF072960013862F /* XiMaLaYaCategoryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A08058681BF072960013862F /* XiMaLaYaCategoryViewModel.m */; };
+		A0BF909E1BF19484006883BC /* MusicDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BF909D1BF19484006883BC /* MusicDetailCell.m */; };
+		A0BF90A11BF1C081006883BC /* XiMaLaYaAlbumViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BF90A01BF1C081006883BC /* XiMaLaYaAlbumViewModel.m */; };
+		A0BF90A41BF1CB86006883BC /* MusicListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BF90A31BF1CB86006883BC /* MusicListViewController.m */; };
 		A0CEE78E1BEB047A002F5DDC /* DuoWanAllHeroesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CEE7621BEB047A002F5DDC /* DuoWanAllHeroesModel.m */; };
 		A0CEE78F1BEB047A002F5DDC /* DuoWanFreeHeroesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CEE7641BEB047A002F5DDC /* DuoWanFreeHeroesModel.m */; };
 		A0CEE7901BEB047A002F5DDC /* DuoWanGiftModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CEE7661BEB047A002F5DDC /* DuoWanGiftModel.m */; };
@@ -106,6 +111,11 @@
 		A0CEE7C21BEB0763002F5DDC /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CEE7C11BEB0763002F5DDC /* LeftViewController.m */; };
 		A0CEE7C51BEB442D002F5DDC /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CEE7C41BEB442D002F5DDC /* Factory.m */; };
 		A0CEE7C81BEB4726002F5DDC /* TuWanViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CEE7C71BEB4726002F5DDC /* TuWanViewModel.m */; };
+		A0E2D5EB1BF2CDEE0023577F /* DuoWanHeroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E2D5EA1BF2CDEE0023577F /* DuoWanHeroViewController.m */; };
+		A0E2D5EE1BF2CE1F0023577F /* DuoWanBaiKeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E2D5ED1BF2CE1F0023577F /* DuoWanBaiKeViewController.m */; };
+		A0E2D5F11BF2CE4C0023577F /* DuoWanSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E2D5F01BF2CE4C0023577F /* DuoWanSearchViewController.m */; };
+		A0E2D5F41BF2D8D60023577F /* DuoWanSearchDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E2D5F31BF2D8D60023577F /* DuoWanSearchDetailViewController.m */; };
+		A0E2D5F71BF2E6B20023577F /* DuoWanToolMenuViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E2D5F61BF2E6B20023577F /* DuoWanToolMenuViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -221,8 +231,17 @@
 		A0686EFF1BF02EA100E810B6 /* TuWanPicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanPicViewController.m; sourceTree = "<group>"; };
 		A0686F011BF0496200E810B6 /* XiMaLaYaCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiMaLaYaCategoryCell.h; sourceTree = "<group>"; };
 		A0686F021BF0496200E810B6 /* XiMaLaYaCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiMaLaYaCategoryCell.m; sourceTree = "<group>"; };
+		A0769A131BF1DF1300C0CFAE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A0769A151BF1DF5B00C0CFAE /* PlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayView.h; sourceTree = "<group>"; };
+		A0769A161BF1DF5B00C0CFAE /* PlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayView.m; sourceTree = "<group>"; };
 		A08058671BF072960013862F /* XiMaLaYaCategoryViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiMaLaYaCategoryViewModel.h; sourceTree = "<group>"; };
 		A08058681BF072960013862F /* XiMaLaYaCategoryViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiMaLaYaCategoryViewModel.m; sourceTree = "<group>"; };
+		A0BF909C1BF19484006883BC /* MusicDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicDetailCell.h; sourceTree = "<group>"; };
+		A0BF909D1BF19484006883BC /* MusicDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicDetailCell.m; sourceTree = "<group>"; };
+		A0BF909F1BF1C081006883BC /* XiMaLaYaAlbumViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XiMaLaYaAlbumViewModel.h; path = "../../ViewController/喜马拉雅/XiMaLaYaAlbumViewModel.h"; sourceTree = "<group>"; };
+		A0BF90A01BF1C081006883BC /* XiMaLaYaAlbumViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XiMaLaYaAlbumViewModel.m; path = "../../ViewController/喜马拉雅/XiMaLaYaAlbumViewModel.m"; sourceTree = "<group>"; };
+		A0BF90A21BF1CB86006883BC /* MusicListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicListViewController.h; sourceTree = "<group>"; };
+		A0BF90A31BF1CB86006883BC /* MusicListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicListViewController.m; sourceTree = "<group>"; };
 		A0CEE7611BEB047A002F5DDC /* DuoWanAllHeroesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuoWanAllHeroesModel.h; sourceTree = "<group>"; };
 		A0CEE7621BEB047A002F5DDC /* DuoWanAllHeroesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuoWanAllHeroesModel.m; sourceTree = "<group>"; };
 		A0CEE7631BEB047A002F5DDC /* DuoWanFreeHeroesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuoWanFreeHeroesModel.h; sourceTree = "<group>"; };
@@ -286,6 +305,16 @@
 		A0CEE7C41BEB442D002F5DDC /* Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Factory.m; sourceTree = "<group>"; };
 		A0CEE7C61BEB4726002F5DDC /* TuWanViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanViewModel.h; sourceTree = "<group>"; };
 		A0CEE7C71BEB4726002F5DDC /* TuWanViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanViewModel.m; sourceTree = "<group>"; };
+		A0E2D5E91BF2CDEE0023577F /* DuoWanHeroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuoWanHeroViewController.h; sourceTree = "<group>"; };
+		A0E2D5EA1BF2CDEE0023577F /* DuoWanHeroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuoWanHeroViewController.m; sourceTree = "<group>"; };
+		A0E2D5EC1BF2CE1F0023577F /* DuoWanBaiKeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuoWanBaiKeViewController.h; sourceTree = "<group>"; };
+		A0E2D5ED1BF2CE1F0023577F /* DuoWanBaiKeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuoWanBaiKeViewController.m; sourceTree = "<group>"; };
+		A0E2D5EF1BF2CE4C0023577F /* DuoWanSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuoWanSearchViewController.h; sourceTree = "<group>"; };
+		A0E2D5F01BF2CE4C0023577F /* DuoWanSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuoWanSearchViewController.m; sourceTree = "<group>"; };
+		A0E2D5F21BF2D8D60023577F /* DuoWanSearchDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuoWanSearchDetailViewController.h; sourceTree = "<group>"; };
+		A0E2D5F31BF2D8D60023577F /* DuoWanSearchDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuoWanSearchDetailViewController.m; sourceTree = "<group>"; };
+		A0E2D5F51BF2E6B20023577F /* DuoWanToolMenuViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuoWanToolMenuViewModel.h; sourceTree = "<group>"; };
+		A0E2D5F61BF2E6B20023577F /* DuoWanToolMenuViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuoWanToolMenuViewModel.m; sourceTree = "<group>"; };
 		DD4F0750B5DAAA87BA236B31 /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -294,6 +323,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0769A141BF1DF1300C0CFAE /* AVFoundation.framework in Frameworks */,
 				3885C90B1BE8EA70009441EA /* libz.tbd in Frameworks */,
 				3885C9091BE8EA6A009441EA /* libstdc++.tbd in Frameworks */,
 				3885C9071BE8EA62009441EA /* CoreTelephony.framework in Frameworks */,
@@ -644,6 +674,10 @@
 			children = (
 				A0686F011BF0496200E810B6 /* XiMaLaYaCategoryCell.h */,
 				A0686F021BF0496200E810B6 /* XiMaLaYaCategoryCell.m */,
+				A0BF909C1BF19484006883BC /* MusicDetailCell.h */,
+				A0BF909D1BF19484006883BC /* MusicDetailCell.m */,
+				A0769A151BF1DF5B00C0CFAE /* PlayView.h */,
+				A0769A161BF1DF5B00C0CFAE /* PlayView.m */,
 			);
 			path = "喜马拉雅";
 			sourceTree = "<group>";
@@ -721,6 +755,14 @@
 			children = (
 				A0CEE7B41BEB0667002F5DDC /* DuoWanTabBarController.h */,
 				A0CEE7B51BEB0667002F5DDC /* DuoWanTabBarController.m */,
+				A0E2D5E91BF2CDEE0023577F /* DuoWanHeroViewController.h */,
+				A0E2D5EA1BF2CDEE0023577F /* DuoWanHeroViewController.m */,
+				A0E2D5EC1BF2CE1F0023577F /* DuoWanBaiKeViewController.h */,
+				A0E2D5ED1BF2CE1F0023577F /* DuoWanBaiKeViewController.m */,
+				A0E2D5EF1BF2CE4C0023577F /* DuoWanSearchViewController.h */,
+				A0E2D5F01BF2CE4C0023577F /* DuoWanSearchViewController.m */,
+				A0E2D5F21BF2D8D60023577F /* DuoWanSearchDetailViewController.h */,
+				A0E2D5F31BF2D8D60023577F /* DuoWanSearchDetailViewController.m */,
 			);
 			path = "多玩盒子";
 			sourceTree = "<group>";
@@ -754,6 +796,8 @@
 			children = (
 				A0CEE7BD1BEB0722002F5DDC /* RankListViewController.h */,
 				A0CEE7BE1BEB0722002F5DDC /* RankListViewController.m */,
+				A0BF90A21BF1CB86006883BC /* MusicListViewController.h */,
+				A0BF90A31BF1CB86006883BC /* MusicListViewController.m */,
 			);
 			path = "喜马拉雅";
 			sourceTree = "<group>";
@@ -761,6 +805,8 @@
 		A0CEE7B01BEB05C5002F5DDC /* 多玩盒子 */ = {
 			isa = PBXGroup;
 			children = (
+				A0E2D5F51BF2E6B20023577F /* DuoWanToolMenuViewModel.h */,
+				A0E2D5F61BF2E6B20023577F /* DuoWanToolMenuViewModel.m */,
 			);
 			path = "多玩盒子";
 			sourceTree = "<group>";
@@ -786,6 +832,8 @@
 		A0CEE7B31BEB05C5002F5DDC /* 喜马拉雅 */ = {
 			isa = PBXGroup;
 			children = (
+				A0BF909F1BF1C081006883BC /* XiMaLaYaAlbumViewModel.h */,
+				A0BF90A01BF1C081006883BC /* XiMaLaYaAlbumViewModel.m */,
 				A08058671BF072960013862F /* XiMaLaYaCategoryViewModel.h */,
 				A08058681BF072960013862F /* XiMaLaYaCategoryViewModel.m */,
 			);
@@ -804,6 +852,7 @@
 		FA3445AEA3874C1D4FE61EAF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A0769A131BF1DF1300C0CFAE /* AVFoundation.framework */,
 				3885C90A1BE8EA70009441EA /* libz.tbd */,
 				3885C9081BE8EA6A009441EA /* libstdc++.tbd */,
 				3885C9061BE8EA62009441EA /* CoreTelephony.framework */,
@@ -966,6 +1015,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0E2D5F11BF2CE4C0023577F /* DuoWanSearchViewController.m in Sources */,
+				A0E2D5F71BF2E6B20023577F /* DuoWanToolMenuViewModel.m in Sources */,
 				A05410FE1BEC416B00F62931 /* TuWanImageCell.m in Sources */,
 				A0686F001BF02EA100E810B6 /* TuWanPicViewController.m in Sources */,
 				A0CEE7991BEB047A002F5DDC /* DuoWanLolczModel.m in Sources */,
@@ -974,19 +1025,24 @@
 				A05410F41BEC365D00F62931 /* TuWanListViewController.m in Sources */,
 				A0CEE7BF1BEB0722002F5DDC /* RankListViewController.m in Sources */,
 				A0CEE7BC1BEB06F3002F5DDC /* MyInfoViewController.m in Sources */,
+				A0E2D5EB1BF2CDEE0023577F /* DuoWanHeroViewController.m in Sources */,
 				A0CEE7941BEB047A002F5DDC /* DuoWanHeroSkinModel.m in Sources */,
 				A08058691BF072960013862F /* XiMaLaYaCategoryViewModel.m in Sources */,
 				A05411011BEC7CE400F62931 /* TuWanImageView.m in Sources */,
 				3804CE541BD758F10046C8C8 /* NSString+QRCode.m in Sources */,
+				A0BF90A41BF1CB86006883BC /* MusicListViewController.m in Sources */,
 				A0686F031BF0496200E810B6 /* XiMaLaYaCategoryCell.m in Sources */,
 				A0CEE79D1BEB047A002F5DDC /* DuoWanVideoesNormalModel.m in Sources */,
 				A0CEE7A01BEB047A002F5DDC /* TuWanModel.m in Sources */,
 				A0CEE79B1BEB047A002F5DDC /* DuoWanSumAbilityModel.m in Sources */,
+				A0BF909E1BF19484006883BC /* MusicDetailCell.m in Sources */,
 				A0CEE7AB1BEB04AB002F5DDC /* XiMaLaYaNetManager.m in Sources */,
 				3885C8FA1BE8E96A009441EA /* PSCollectionViewCell.m in Sources */,
 				A0CEE7B91BEB06CD002F5DDC /* TuWanViewController.m in Sources */,
 				3804CE531BD758F10046C8C8 /* NSString+PJR.m in Sources */,
 				A0CEE7961BEB047A002F5DDC /* DuoWanHeroSuggestedGiftAndRunModel.m in Sources */,
+				A0BF90A11BF1C081006883BC /* XiMaLaYaAlbumViewModel.m in Sources */,
+				A0769A171BF1DF5B00C0CFAE /* PlayView.m in Sources */,
 				A0CEE7951BEB047A002F5DDC /* DuoWanHeroSoundModel.m in Sources */,
 				A0686EFD1BF02A9400E810B6 /* TuWanVideoModel.m in Sources */,
 				A0686EFC1BF02A9400E810B6 /* TuWanPicModel.m in Sources */,
@@ -999,11 +1055,13 @@
 				3885C8981BE8E88D009441EA /* iCarousel.m in Sources */,
 				A0CEE7911BEB047A002F5DDC /* DuoWanHeroBestGroupModel.m in Sources */,
 				3804CE511BD758F10046C8C8 /* AppDelegate+Category.m in Sources */,
+				A0E2D5F41BF2D8D60023577F /* DuoWanSearchDetailViewController.m in Sources */,
 				A0CEE78F1BEB047A002F5DDC /* DuoWanFreeHeroesModel.m in Sources */,
 				3886C0BB1BD74AE90014E661 /* BaseViewModel.m in Sources */,
 				A0CEE79A1BEB047A002F5DDC /* DuoWanRunesModel.m in Sources */,
 				3885C8FB1BE8E96A009441EA /* README.md in Sources */,
 				A0CEE7A11BEB047A002F5DDC /* XiMaLaYaAlbumModel.m in Sources */,
+				A0E2D5EE1BF2CE1F0023577F /* DuoWanBaiKeViewController.m in Sources */,
 				3886C0C11BD74B090014E661 /* BaseModel.m in Sources */,
 				A0CEE7901BEB047A002F5DDC /* DuoWanGiftModel.m in Sources */,
 				A0CEE7C81BEB4726002F5DDC /* TuWanViewModel.m in Sources */,

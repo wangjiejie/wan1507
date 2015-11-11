@@ -7,6 +7,11 @@
 //
 
 #import "DuoWanTabBarController.h"
+#import "DuoWanHeroViewController.h"
+#import "DuoWanBaiKeViewController.h"
+#import "DuoWanSearchViewController.h"
+
+
 
 @interface DuoWanTabBarController ()
 
@@ -14,24 +19,36 @@
 
 @implementation DuoWanTabBarController
 
++(DuoWanTabBarController *)standardInstance
+{
+    static DuoWanTabBarController *tabBarVC = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        tabBarVC = [DuoWanTabBarController new];
+        
+    });
+    return tabBarVC;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    //取消工具栏的透明状态
+    self.tabBar.translucent = NO;
+    //self.tabBar.hidden = YES;
+    
+    /**
+     *  初始化3个子视图，放到tabbar中
+     */
+    DuoWanHeroViewController *heroVC = [DuoWanHeroViewController new];
+    UINavigationController *heroNavi = [[UINavigationController alloc]initWithRootViewController:heroVC];
+    
+    DuoWanBaiKeViewController *baikeVC = [DuoWanBaiKeViewController new];
+    UINavigationController *baikeNavi = [[UINavigationController alloc]initWithRootViewController:baikeVC];
+    
+    DuoWanSearchViewController *searchVC = [DuoWanSearchViewController new];
+    UINavigationController *searchNavi = [[UINavigationController alloc]initWithRootViewController:searchVC];
+    
+    self.viewControllers = @[heroNavi,baikeNavi,searchNavi];
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

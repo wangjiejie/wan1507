@@ -9,6 +9,8 @@
 #import "LeftViewController.h"
 #import "RankListViewController.h"
 #import "TuWanViewController.h"
+#import "DuoWanTabBarController.h"
+
 
 @interface LeftViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong)UITableView *tableView;
@@ -35,6 +37,7 @@
             make.centerY.mas_equalTo(0);
             make.left.mas_equalTo(0);
         }];
+        _tableView.separatorStyle = 0;
     }
     return _tableView;
 }
@@ -68,14 +71,16 @@ kRemoveCellSeparator
     switch (indexPath.row) {
         case 0:
             [self.sideMenuViewController setContentViewController:[TuWanViewController standardTuWanNavi] animated:YES];
-            
+            [self.sideMenuViewController hideMenuViewController];
             break;
         case 1:
             [self.sideMenuViewController setContentViewController:[RankListViewController defaultNavi] animated:YES];
-            
+            [self.sideMenuViewController hideMenuViewController];
             break;
         case 2:
-            
+            [self.sideMenuViewController setContentViewController:[DuoWanTabBarController standardInstance] animated:YES];
+            [self.sideMenuViewController hideMenuViewController];
+            break;
             break;
         case 3:
             
@@ -83,7 +88,7 @@ kRemoveCellSeparator
         default:
             break;
     }
-    [self.sideMenuViewController hideMenuViewController];
+    
 }
 
 @end

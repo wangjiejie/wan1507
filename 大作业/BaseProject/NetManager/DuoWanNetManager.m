@@ -127,7 +127,7 @@
 +(id)getHeroSuggestedGiftAndRunWithHeroName:(NSString *)enName completionHandle:(void (^)(id, NSError *))completionHandle
 {
     return [self GET:kGiftAndRunPath parameters:@{kV, kOSType, @"hero": enName} completionHandler:^(id responseObj, NSError *error) {
-        completionHandle([DuoWanHeroSuggestedGiftAndRunesarrayModel objectArrayWithKeyValuesArray:responseObj], error);
+        completionHandle([DuoWanHeroSuggestedGiftAndRunesarrayModel mj_objectArrayWithKeyValuesArray:responseObj], error);
     }];
 }
 

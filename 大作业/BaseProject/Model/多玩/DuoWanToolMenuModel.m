@@ -11,3 +11,4 @@
 @implementation DuoWanToolMenuModel
 
 @end
+
