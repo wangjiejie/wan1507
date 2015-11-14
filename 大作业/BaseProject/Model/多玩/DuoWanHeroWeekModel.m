@@ -17,7 +17,7 @@
     return @{@"charts" : [DuoWanHeroWeekDataChartsModel class]};
 }
 + (NSString *)replacedKeyFromPropertyName121:(NSString *)propertyName{
-    return [propertyName underlineFromCamel];
+    return [propertyName mj_underlineFromCamel];
 }
 @end
 
@@ -28,7 +28,7 @@
     return @{@"ratio_data" : [DuoWanHeroWeekDataChartsRatio_DataModel class]};
 }
 + (NSString *)replacedKeyFromPropertyName121:(NSString *)propertyName{
-    return [propertyName underlineFromCamel];
+    return [propertyName mj_underlineFromCamel];
 }
 @end
 

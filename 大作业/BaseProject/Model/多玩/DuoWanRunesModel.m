@@ -12,7 +12,7 @@
 
 //首字母大写
 + (NSString *)replacedKeyFromPropertyName121:(NSString *)propertyName{
-    return [propertyName firstCharUpper];
+    return [propertyName mj_firstCharUpper];
 }
 
 + (NSDictionary *)objectClassInArray{

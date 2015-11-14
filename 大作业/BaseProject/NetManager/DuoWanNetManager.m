@@ -186,7 +186,7 @@
 
 + (id)getSumAbilityCompletionHandle:(void (^)(id, NSError *))completionHandle{
     return [self GET:kSumAbilityPath parameters:@{kV, kOSType} completionHandler:^(id responseObj, NSError *error) {
-        completionHandle([DuoWanSumAbilityModel mj_objectWithKeyValues:responseObj], error);
+        completionHandle([DuoWanSumAbilityModel mj_objectArrayWithKeyValuesArray:responseObj], error);
     }];
 }
 

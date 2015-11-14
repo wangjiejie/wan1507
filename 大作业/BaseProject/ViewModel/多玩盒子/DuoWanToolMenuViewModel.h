@@ -13,6 +13,11 @@ typedef NS_ENUM(NSUInteger, ToolMenuItemType) {
     ToolMenuItemTypeNative,
     ToolMenuItemTypeWeb,
 };
+
+
+
+
+
 @interface DuoWanToolMenuViewModel : BaseViewModel
 
 /** 有多少行 */
@@ -23,6 +28,9 @@ typedef NS_ENUM(NSUInteger, ToolMenuItemType) {
 - (NSString *)titleForRow:(NSInteger)row;
 /** 某行的数据类型--枚举类型 */
 - (ToolMenuItemType)itemTypeForRow:(NSInteger)row;
+
+
+
 /** 某行的tag值 */
 - (NSString *)tagForRow:(NSInteger)row;
 /** 网页类型的链接地址 */

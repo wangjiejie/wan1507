@@ -20,7 +20,7 @@
 
 //属性首字母小写->变大写
 + (NSString *)replacedKeyFromPropertyName121:(NSString *)propertyName{
-    return [propertyName firstCharUpper];
+    return [propertyName mj_firstCharUpper];
 }
 
 @end

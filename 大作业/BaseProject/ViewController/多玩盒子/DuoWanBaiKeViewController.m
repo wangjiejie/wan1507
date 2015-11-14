@@ -9,6 +9,10 @@
 #import "DuoWanBaiKeViewController.h"
 #import "DuoWanToolMenuViewModel.h"
 #import "TuWanImageView.h"
+#import "TuWanHtml5ViewController.h"
+#import "BestGroupViewController.h"
+#import "ZBCategoryViewController.h"
+#import "SumAbilityViewController.h"
 
 @interface ToolMenuCell : UITableViewCell
 /** 左侧图片 */
@@ -79,7 +83,7 @@
         }];
         [_tableView registerClass:[ToolMenuCell class] forCellReuseIdentifier:@"Cell"];
         _tableView.tableFooterView = [UIView new];
-        _tableView.rowHeight = 52;
+       _tableView.rowHeight = 52;
         _tableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
             [self.toolMenuVM getDataFromNetCompleteHandle:^(NSError *error) {
                 if(error)
@@ -136,6 +140,33 @@ kRemoveCellSeparator
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    if([self.toolMenuVM itemTypeForRow:indexPath.row] == ToolMenuItemTypeWeb)
+    {
+        TuWanHtml5ViewController *vc = [[TuWanHtml5ViewController alloc]initWithURL:[self.toolMenuVM webURLForRow:indexPath.row]];
+        vc.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    if([[self.toolMenuVM tagForRow:indexPath.row] isEqualToString:@"best_group"])
+    {
+        BestGroupViewController *vc = [BestGroupViewController new];
+        vc.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    
+    if([[self.toolMenuVM tagForRow:indexPath.row] isEqualToString:@"item"])
+    {
+        ZBCategoryViewController *vc = [ZBCategoryViewController new];
+        vc.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    
+    if([[self.toolMenuVM tagForRow:indexPath.row] isEqualToString:@"sum_ability"])
+    {
+        SumAbilityViewController *vc = [SumAbilityViewController new];
+        vc.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+        
 }
 
 

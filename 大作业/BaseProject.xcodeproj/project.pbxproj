@@ -74,6 +74,17 @@
 		A0686EFD1BF02A9400E810B6 /* TuWanVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0686EFB1BF02A9400E810B6 /* TuWanVideoModel.m */; };
 		A0686F001BF02EA100E810B6 /* TuWanPicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0686EFF1BF02EA100E810B6 /* TuWanPicViewController.m */; };
 		A0686F031BF0496200E810B6 /* XiMaLaYaCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0686F021BF0496200E810B6 /* XiMaLaYaCategoryCell.m */; };
+		A07142301BF4292C00F335CE /* BestGroupDetailHeroCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A071422D1BF4292C00F335CE /* BestGroupDetailHeroCell.m */; };
+		A07142311BF4292C00F335CE /* BestGroupDetailIntroCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A071422F1BF4292C00F335CE /* BestGroupDetailIntroCell.m */; };
+		A07142341BF42CE400F335CE /* ZBCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A07142331BF42CE400F335CE /* ZBCategoryViewController.m */; };
+		A07142371BF42D0D00F335CE /* ZBCategoryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A07142361BF42D0D00F335CE /* ZBCategoryViewModel.m */; };
+		A071423A1BF4328700F335CE /* ZBCategoryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A07142391BF4328700F335CE /* ZBCategoryDetailViewController.m */; };
+		A071423D1BF4331600F335CE /* ZBItemListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A071423C1BF4331600F335CE /* ZBItemListViewModel.m */; };
+		A07142401BF434B600F335CE /* ZBItemListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A071423F1BF434B600F335CE /* ZBItemListCell.m */; };
+		A07142431BF467C900F335CE /* SumAbilityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A07142421BF467C900F335CE /* SumAbilityViewController.m */; };
+		A07142461BF4681100F335CE /* SumAbilityViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A07142451BF4681100F335CE /* SumAbilityViewModel.m */; };
+		A07142491BF46EF200F335CE /* SumAbilityDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A07142481BF46EF200F335CE /* SumAbilityDetailViewController.m */; };
+		A071424C1BF4729E00F335CE /* SumAbilityHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A071424B1BF4729E00F335CE /* SumAbilityHeaderView.m */; };
 		A0769A141BF1DF1300C0CFAE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0769A131BF1DF1300C0CFAE /* AVFoundation.framework */; };
 		A0769A171BF1DF5B00C0CFAE /* PlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0769A161BF1DF5B00C0CFAE /* PlayView.m */; };
 		A08058691BF072960013862F /* XiMaLaYaCategoryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A08058681BF072960013862F /* XiMaLaYaCategoryViewModel.m */; };
@@ -116,6 +127,10 @@
 		A0E2D5F11BF2CE4C0023577F /* DuoWanSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E2D5F01BF2CE4C0023577F /* DuoWanSearchViewController.m */; };
 		A0E2D5F41BF2D8D60023577F /* DuoWanSearchDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E2D5F31BF2D8D60023577F /* DuoWanSearchDetailViewController.m */; };
 		A0E2D5F71BF2E6B20023577F /* DuoWanToolMenuViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E2D5F61BF2E6B20023577F /* DuoWanToolMenuViewModel.m */; };
+		A0E2D5FA1BF3166B0023577F /* BestGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E2D5F91BF3166B0023577F /* BestGroupViewController.m */; };
+		A0E2D5FD1BF316A70023577F /* BestGroupViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E2D5FC1BF316A70023577F /* BestGroupViewModel.m */; };
+		A0E2D6001BF318ED0023577F /* BestGroupDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E2D5FF1BF318ED0023577F /* BestGroupDetailViewController.m */; };
+		A0E2D6031BF31DCA0023577F /* BestGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E2D6021BF31DCA0023577F /* BestGroupCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -231,6 +246,28 @@
 		A0686EFF1BF02EA100E810B6 /* TuWanPicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanPicViewController.m; sourceTree = "<group>"; };
 		A0686F011BF0496200E810B6 /* XiMaLaYaCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiMaLaYaCategoryCell.h; sourceTree = "<group>"; };
 		A0686F021BF0496200E810B6 /* XiMaLaYaCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiMaLaYaCategoryCell.m; sourceTree = "<group>"; };
+		A071422C1BF4292C00F335CE /* BestGroupDetailHeroCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestGroupDetailHeroCell.h; sourceTree = "<group>"; };
+		A071422D1BF4292C00F335CE /* BestGroupDetailHeroCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestGroupDetailHeroCell.m; sourceTree = "<group>"; };
+		A071422E1BF4292C00F335CE /* BestGroupDetailIntroCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestGroupDetailIntroCell.h; sourceTree = "<group>"; };
+		A071422F1BF4292C00F335CE /* BestGroupDetailIntroCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestGroupDetailIntroCell.m; sourceTree = "<group>"; };
+		A07142321BF42CE400F335CE /* ZBCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZBCategoryViewController.h; path = "../../View/多玩/ZBCategoryViewController.h"; sourceTree = "<group>"; };
+		A07142331BF42CE400F335CE /* ZBCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZBCategoryViewController.m; path = "../../View/多玩/ZBCategoryViewController.m"; sourceTree = "<group>"; };
+		A07142351BF42D0D00F335CE /* ZBCategoryViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBCategoryViewModel.h; sourceTree = "<group>"; };
+		A07142361BF42D0D00F335CE /* ZBCategoryViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBCategoryViewModel.m; sourceTree = "<group>"; };
+		A07142381BF4328700F335CE /* ZBCategoryDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBCategoryDetailViewController.h; sourceTree = "<group>"; };
+		A07142391BF4328700F335CE /* ZBCategoryDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBCategoryDetailViewController.m; sourceTree = "<group>"; };
+		A071423B1BF4331600F335CE /* ZBItemListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBItemListViewModel.h; sourceTree = "<group>"; };
+		A071423C1BF4331600F335CE /* ZBItemListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBItemListViewModel.m; sourceTree = "<group>"; };
+		A071423E1BF434B600F335CE /* ZBItemListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBItemListCell.h; sourceTree = "<group>"; };
+		A071423F1BF434B600F335CE /* ZBItemListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBItemListCell.m; sourceTree = "<group>"; };
+		A07142411BF467C900F335CE /* SumAbilityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SumAbilityViewController.h; sourceTree = "<group>"; };
+		A07142421BF467C900F335CE /* SumAbilityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SumAbilityViewController.m; sourceTree = "<group>"; };
+		A07142441BF4681100F335CE /* SumAbilityViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SumAbilityViewModel.h; sourceTree = "<group>"; };
+		A07142451BF4681100F335CE /* SumAbilityViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SumAbilityViewModel.m; sourceTree = "<group>"; };
+		A07142471BF46EF200F335CE /* SumAbilityDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SumAbilityDetailViewController.h; sourceTree = "<group>"; };
+		A07142481BF46EF200F335CE /* SumAbilityDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SumAbilityDetailViewController.m; sourceTree = "<group>"; };
+		A071424A1BF4729E00F335CE /* SumAbilityHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SumAbilityHeaderView.h; sourceTree = "<group>"; };
+		A071424B1BF4729E00F335CE /* SumAbilityHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SumAbilityHeaderView.m; sourceTree = "<group>"; };
 		A0769A131BF1DF1300C0CFAE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		A0769A151BF1DF5B00C0CFAE /* PlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayView.h; sourceTree = "<group>"; };
 		A0769A161BF1DF5B00C0CFAE /* PlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayView.m; sourceTree = "<group>"; };
@@ -315,6 +352,14 @@
 		A0E2D5F31BF2D8D60023577F /* DuoWanSearchDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuoWanSearchDetailViewController.m; sourceTree = "<group>"; };
 		A0E2D5F51BF2E6B20023577F /* DuoWanToolMenuViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuoWanToolMenuViewModel.h; sourceTree = "<group>"; };
 		A0E2D5F61BF2E6B20023577F /* DuoWanToolMenuViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuoWanToolMenuViewModel.m; sourceTree = "<group>"; };
+		A0E2D5F81BF3166B0023577F /* BestGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestGroupViewController.h; sourceTree = "<group>"; };
+		A0E2D5F91BF3166B0023577F /* BestGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestGroupViewController.m; sourceTree = "<group>"; };
+		A0E2D5FB1BF316A70023577F /* BestGroupViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestGroupViewModel.h; sourceTree = "<group>"; };
+		A0E2D5FC1BF316A70023577F /* BestGroupViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestGroupViewModel.m; sourceTree = "<group>"; };
+		A0E2D5FE1BF318ED0023577F /* BestGroupDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestGroupDetailViewController.h; sourceTree = "<group>"; };
+		A0E2D5FF1BF318ED0023577F /* BestGroupDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestGroupDetailViewController.m; sourceTree = "<group>"; };
+		A0E2D6011BF31DCA0023577F /* BestGroupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestGroupCell.h; sourceTree = "<group>"; };
+		A0E2D6021BF31DCA0023577F /* BestGroupCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestGroupCell.m; sourceTree = "<group>"; };
 		DD4F0750B5DAAA87BA236B31 /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -652,6 +697,16 @@
 		A05410F61BEC36FE00F62931 /* 多玩 */ = {
 			isa = PBXGroup;
 			children = (
+				A0E2D6011BF31DCA0023577F /* BestGroupCell.h */,
+				A0E2D6021BF31DCA0023577F /* BestGroupCell.m */,
+				A071422C1BF4292C00F335CE /* BestGroupDetailHeroCell.h */,
+				A071422D1BF4292C00F335CE /* BestGroupDetailHeroCell.m */,
+				A071422E1BF4292C00F335CE /* BestGroupDetailIntroCell.h */,
+				A071422F1BF4292C00F335CE /* BestGroupDetailIntroCell.m */,
+				A071423E1BF434B600F335CE /* ZBItemListCell.h */,
+				A071423F1BF434B600F335CE /* ZBItemListCell.m */,
+				A071424A1BF4729E00F335CE /* SumAbilityHeaderView.h */,
+				A071424B1BF4729E00F335CE /* SumAbilityHeaderView.m */,
 			);
 			path = "多玩";
 			sourceTree = "<group>";
@@ -763,6 +818,18 @@
 				A0E2D5F01BF2CE4C0023577F /* DuoWanSearchViewController.m */,
 				A0E2D5F21BF2D8D60023577F /* DuoWanSearchDetailViewController.h */,
 				A0E2D5F31BF2D8D60023577F /* DuoWanSearchDetailViewController.m */,
+				A0E2D5F81BF3166B0023577F /* BestGroupViewController.h */,
+				A0E2D5F91BF3166B0023577F /* BestGroupViewController.m */,
+				A0E2D5FE1BF318ED0023577F /* BestGroupDetailViewController.h */,
+				A0E2D5FF1BF318ED0023577F /* BestGroupDetailViewController.m */,
+				A07142321BF42CE400F335CE /* ZBCategoryViewController.h */,
+				A07142331BF42CE400F335CE /* ZBCategoryViewController.m */,
+				A07142381BF4328700F335CE /* ZBCategoryDetailViewController.h */,
+				A07142391BF4328700F335CE /* ZBCategoryDetailViewController.m */,
+				A07142411BF467C900F335CE /* SumAbilityViewController.h */,
+				A07142421BF467C900F335CE /* SumAbilityViewController.m */,
+				A07142471BF46EF200F335CE /* SumAbilityDetailViewController.h */,
+				A07142481BF46EF200F335CE /* SumAbilityDetailViewController.m */,
 			);
 			path = "多玩盒子";
 			sourceTree = "<group>";
@@ -807,6 +874,14 @@
 			children = (
 				A0E2D5F51BF2E6B20023577F /* DuoWanToolMenuViewModel.h */,
 				A0E2D5F61BF2E6B20023577F /* DuoWanToolMenuViewModel.m */,
+				A0E2D5FB1BF316A70023577F /* BestGroupViewModel.h */,
+				A0E2D5FC1BF316A70023577F /* BestGroupViewModel.m */,
+				A07142351BF42D0D00F335CE /* ZBCategoryViewModel.h */,
+				A07142361BF42D0D00F335CE /* ZBCategoryViewModel.m */,
+				A071423B1BF4331600F335CE /* ZBItemListViewModel.h */,
+				A071423C1BF4331600F335CE /* ZBItemListViewModel.m */,
+				A07142441BF4681100F335CE /* SumAbilityViewModel.h */,
+				A07142451BF4681100F335CE /* SumAbilityViewModel.m */,
 			);
 			path = "多玩盒子";
 			sourceTree = "<group>";
@@ -1019,17 +1094,21 @@
 				A0E2D5F71BF2E6B20023577F /* DuoWanToolMenuViewModel.m in Sources */,
 				A05410FE1BEC416B00F62931 /* TuWanImageCell.m in Sources */,
 				A0686F001BF02EA100E810B6 /* TuWanPicViewController.m in Sources */,
+				A0E2D5FD1BF316A70023577F /* BestGroupViewModel.m in Sources */,
 				A0CEE7991BEB047A002F5DDC /* DuoWanLolczModel.m in Sources */,
 				A0CEE7C51BEB442D002F5DDC /* Factory.m in Sources */,
 				3886C0BE1BD74AFE0014E661 /* BaseNetManager.m in Sources */,
 				A05410F41BEC365D00F62931 /* TuWanListViewController.m in Sources */,
 				A0CEE7BF1BEB0722002F5DDC /* RankListViewController.m in Sources */,
+				A0E2D6001BF318ED0023577F /* BestGroupDetailViewController.m in Sources */,
 				A0CEE7BC1BEB06F3002F5DDC /* MyInfoViewController.m in Sources */,
 				A0E2D5EB1BF2CDEE0023577F /* DuoWanHeroViewController.m in Sources */,
 				A0CEE7941BEB047A002F5DDC /* DuoWanHeroSkinModel.m in Sources */,
+				A071424C1BF4729E00F335CE /* SumAbilityHeaderView.m in Sources */,
 				A08058691BF072960013862F /* XiMaLaYaCategoryViewModel.m in Sources */,
 				A05411011BEC7CE400F62931 /* TuWanImageView.m in Sources */,
 				3804CE541BD758F10046C8C8 /* NSString+QRCode.m in Sources */,
+				A07142341BF42CE400F335CE /* ZBCategoryViewController.m in Sources */,
 				A0BF90A41BF1CB86006883BC /* MusicListViewController.m in Sources */,
 				A0686F031BF0496200E810B6 /* XiMaLaYaCategoryCell.m in Sources */,
 				A0CEE79D1BEB047A002F5DDC /* DuoWanVideoesNormalModel.m in Sources */,
@@ -1040,6 +1119,7 @@
 				3885C8FA1BE8E96A009441EA /* PSCollectionViewCell.m in Sources */,
 				A0CEE7B91BEB06CD002F5DDC /* TuWanViewController.m in Sources */,
 				3804CE531BD758F10046C8C8 /* NSString+PJR.m in Sources */,
+				A07142491BF46EF200F335CE /* SumAbilityDetailViewController.m in Sources */,
 				A0CEE7961BEB047A002F5DDC /* DuoWanHeroSuggestedGiftAndRunModel.m in Sources */,
 				A0BF90A11BF1C081006883BC /* XiMaLaYaAlbumViewModel.m in Sources */,
 				A0769A171BF1DF5B00C0CFAE /* PlayView.m in Sources */,
@@ -1049,10 +1129,15 @@
 				3885C8F91BE8E96A009441EA /* PSCollectionView.m in Sources */,
 				3886C09B1BD748830014E661 /* AppDelegate.m in Sources */,
 				A0686EF71BF029CD00E810B6 /* TuWanPicViewModel.m in Sources */,
+				A0E2D5FA1BF3166B0023577F /* BestGroupViewController.m in Sources */,
 				A05410FB1BEC371300F62931 /* TuWanListCell.m in Sources */,
 				A0CEE7971BEB047A002F5DDC /* DuoWanHeroWeekModel.m in Sources */,
+				A07142461BF4681100F335CE /* SumAbilityViewModel.m in Sources */,
+				A07142301BF4292C00F335CE /* BestGroupDetailHeroCell.m in Sources */,
+				A071423D1BF4331600F335CE /* ZBItemListViewModel.m in Sources */,
 				A0CEE7931BEB047A002F5DDC /* DuoWanHeroDetailModel.m in Sources */,
 				3885C8981BE8E88D009441EA /* iCarousel.m in Sources */,
+				A07142401BF434B600F335CE /* ZBItemListCell.m in Sources */,
 				A0CEE7911BEB047A002F5DDC /* DuoWanHeroBestGroupModel.m in Sources */,
 				3804CE511BD758F10046C8C8 /* AppDelegate+Category.m in Sources */,
 				A0E2D5F41BF2D8D60023577F /* DuoWanSearchDetailViewController.m in Sources */,
@@ -1060,8 +1145,10 @@
 				3886C0BB1BD74AE90014E661 /* BaseViewModel.m in Sources */,
 				A0CEE79A1BEB047A002F5DDC /* DuoWanRunesModel.m in Sources */,
 				3885C8FB1BE8E96A009441EA /* README.md in Sources */,
+				A07142311BF4292C00F335CE /* BestGroupDetailIntroCell.m in Sources */,
 				A0CEE7A11BEB047A002F5DDC /* XiMaLaYaAlbumModel.m in Sources */,
 				A0E2D5EE1BF2CE1F0023577F /* DuoWanBaiKeViewController.m in Sources */,
+				A07142431BF467C900F335CE /* SumAbilityViewController.m in Sources */,
 				3886C0C11BD74B090014E661 /* BaseModel.m in Sources */,
 				A0CEE7901BEB047A002F5DDC /* DuoWanGiftModel.m in Sources */,
 				A0CEE7C81BEB4726002F5DDC /* TuWanViewModel.m in Sources */,
@@ -1073,11 +1160,14 @@
 				A0CEE7A21BEB047A002F5DDC /* XiMaLaYaRankingListModel.m in Sources */,
 				A0CEE79E1BEB047A002F5DDC /* DuoWanZBCategoryModel.m in Sources */,
 				A0CEE78E1BEB047A002F5DDC /* DuoWanAllHeroesModel.m in Sources */,
+				A0E2D6031BF31DCA0023577F /* BestGroupCell.m in Sources */,
+				A071423A1BF4328700F335CE /* ZBCategoryDetailViewController.m in Sources */,
 				A0CEE7921BEB047A002F5DDC /* DuoWanHeroChangeModel.m in Sources */,
 				A0CEE7A91BEB04AB002F5DDC /* DuoWanNetManager.m in Sources */,
 				A0CEE7B61BEB0667002F5DDC /* DuoWanTabBarController.m in Sources */,
 				A0CEE7C21BEB0763002F5DDC /* LeftViewController.m in Sources */,
 				A0CEE7981BEB047A002F5DDC /* DuoWanItemDetailModel.m in Sources */,
+				A07142371BF42D0D00F335CE /* ZBCategoryViewModel.m in Sources */,
 				3804CE521BD758F10046C8C8 /* NSObject+Common.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

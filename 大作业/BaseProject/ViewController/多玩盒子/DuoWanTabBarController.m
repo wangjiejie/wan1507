@@ -49,6 +49,7 @@
     UINavigationController *searchNavi = [[UINavigationController alloc]initWithRootViewController:searchVC];
     
     self.viewControllers = @[heroNavi,baikeNavi,searchNavi];
+
 }
 
 @end
