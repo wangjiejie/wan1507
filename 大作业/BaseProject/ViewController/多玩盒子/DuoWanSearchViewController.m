@@ -44,6 +44,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     NSString *path = @"http://lolbox.duowan.com/phone/playerSearchNew.php?lolboxAction=toInternalWebView";
      [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:path]]];
+    [Factory addShareItemToVC:self url:path];
 }
 
 

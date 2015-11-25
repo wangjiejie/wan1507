@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "UMSocial.h"
 @interface Factory : NSObject
 
 /** 向某个控制器上，添加菜单按钮 */
@@ -16,4 +16,7 @@
 /** 向某个控制器上，添加返回按钮 */
 +(void)addBackItemToVC:(UIViewController *)vc;
 
+
+/** 向某个控制器上，添加分享按钮 */
++(void)addShareItemToVC:(UIViewController *)vc url:(NSString *)url;
 @end

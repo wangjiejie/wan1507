@@ -39,8 +39,7 @@
     /**
      *  初始化3个子视图，放到tabbar中
      */
-    DuoWanHeroViewController *heroVC = [DuoWanHeroViewController new];
-    UINavigationController *heroNavi = [[UINavigationController alloc]initWithRootViewController:heroVC];
+    //DuoWanHeroViewController *heroNavi = [DuoWanHeroViewController standardHeroNavi];
     
     DuoWanBaiKeViewController *baikeVC = [DuoWanBaiKeViewController new];
     UINavigationController *baikeNavi = [[UINavigationController alloc]initWithRootViewController:baikeVC];
@@ -48,7 +47,7 @@
     DuoWanSearchViewController *searchVC = [DuoWanSearchViewController new];
     UINavigationController *searchNavi = [[UINavigationController alloc]initWithRootViewController:searchVC];
     
-    self.viewControllers = @[heroNavi,baikeNavi,searchNavi];
+    self.viewControllers = @[[DuoWanHeroViewController standardHeroNavi],baikeNavi,searchNavi];
 
 }
 

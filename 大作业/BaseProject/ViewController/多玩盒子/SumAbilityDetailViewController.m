@@ -51,6 +51,8 @@
     headerView.levelLb.text = [NSString stringWithFormat:@"需要等级 %@",self.modelDic[@"level"]];
     headerView.cooldownLb.text = [NSString stringWithFormat:@"冷却时间 %@",self.modelDic[@"cooldown"]];
       self.tableView.tableHeaderView = headerView;
+    
+    [Factory addShareItemToVC:self url:nil];
 }
 
 #pragma mark --  UITableViewDelegate

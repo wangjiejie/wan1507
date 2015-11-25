@@ -10,7 +10,7 @@
 #import <AFNetworkActivityIndicatorManager.h>
 #import "MobClick.h"
 #import <MLTransition.h>
-
+#import "UMSocialWechatHandler.h"
 
 #define AppKey @"563af08d67e58e4a4e0026b7"
 
@@ -45,6 +45,9 @@
     [MobClick startWithAppkey:AppKey reportPolicy:BATCH channelId:nil];
     [MobClick setLogEnabled:YES];
     
+    [UMSocialData setAppKey:AppKey];
+    [UMSocialWechatHandler setWXAppId:@"wxb146f4ef03cb7926" appSecret:@"d4624c36b6795d1d99dcf0547af5443d" url:@"http://www.umeng.com/social"];
+    
     
     /**
      *  解决因为使用leftitem导致iOS自带的右划返回前一页失效问题
@@ -52,7 +55,17 @@
     [MLTransition validatePanPackWithMLTransitionGestureRecognizerType:MLTransitionGestureRecognizerTypeScreenEdgePan];
 }
 
-
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url
+{
+    return  [UMSocialSnsService handleOpenURL:url];
+}
+- (BOOL)application:(UIApplication *)application
+            openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication
+         annotation:(id)annotation
+{
+    return  [UMSocialSnsService handleOpenURL:url];
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

@@ -64,6 +64,8 @@
 		3886C0BB1BD74AE90014E661 /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3886C0BA1BD74AE90014E661 /* BaseViewModel.m */; };
 		3886C0BE1BD74AFE0014E661 /* BaseNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3886C0BD1BD74AFE0014E661 /* BaseNetManager.m */; };
 		3886C0C11BD74B090014E661 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3886C0C01BD74B090014E661 /* BaseModel.m */; };
+		A007BB8F1C0548D900EDDBF0 /* HerosAllCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A007BB8E1C0548D900EDDBF0 /* HerosAllCell.m */; };
+		A02A4AF31C0488960065BD74 /* HeroListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A02A4AF21C0488960065BD74 /* HeroListViewController.m */; };
 		A05410F41BEC365D00F62931 /* TuWanListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A05410F31BEC365D00F62931 /* TuWanListViewController.m */; };
 		A05410FB1BEC371300F62931 /* TuWanListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A05410FA1BEC371300F62931 /* TuWanListCell.m */; };
 		A05410FE1BEC416B00F62931 /* TuWanImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A05410FD1BEC416B00F62931 /* TuWanImageCell.m */; };
@@ -88,6 +90,9 @@
 		A0769A141BF1DF1300C0CFAE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0769A131BF1DF1300C0CFAE /* AVFoundation.framework */; };
 		A0769A171BF1DF5B00C0CFAE /* PlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0769A161BF1DF5B00C0CFAE /* PlayView.m */; };
 		A08058691BF072960013862F /* XiMaLaYaCategoryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A08058681BF072960013862F /* XiMaLaYaCategoryViewModel.m */; };
+		A08195961BFC0A1C0069F653 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A08195951BFC0A1C0069F653 /* libc++.tbd */; };
+		A081959C1BFC4F7D0069F653 /* HerosFreeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A081959B1BFC4F7D0069F653 /* HerosFreeCell.m */; };
+		A081959F1BFC55240069F653 /* HeroViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A081959E1BFC55240069F653 /* HeroViewModel.m */; };
 		A0BF909E1BF19484006883BC /* MusicDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BF909D1BF19484006883BC /* MusicDetailCell.m */; };
 		A0BF90A11BF1C081006883BC /* XiMaLaYaAlbumViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BF90A01BF1C081006883BC /* XiMaLaYaAlbumViewModel.m */; };
 		A0BF90A41BF1CB86006883BC /* MusicListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BF90A31BF1CB86006883BC /* MusicListViewController.m */; };
@@ -226,6 +231,10 @@
 		3886C0C21BD74B430014E661 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		4329DABFE5AD654FE71597C9 /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		5EAAD623A23724C816F8DC02 /* libPods-BaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A007BB8D1C0548D900EDDBF0 /* HerosAllCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HerosAllCell.h; sourceTree = "<group>"; };
+		A007BB8E1C0548D900EDDBF0 /* HerosAllCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HerosAllCell.m; sourceTree = "<group>"; };
+		A02A4AF11C0488960065BD74 /* HeroListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroListViewController.h; sourceTree = "<group>"; };
+		A02A4AF21C0488960065BD74 /* HeroListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroListViewController.m; sourceTree = "<group>"; };
 		A05410F21BEC365D00F62931 /* TuWanListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanListViewController.h; sourceTree = "<group>"; };
 		A05410F31BEC365D00F62931 /* TuWanListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanListViewController.m; sourceTree = "<group>"; };
 		A05410F91BEC371300F62931 /* TuWanListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanListCell.h; sourceTree = "<group>"; };
@@ -273,6 +282,11 @@
 		A0769A161BF1DF5B00C0CFAE /* PlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayView.m; sourceTree = "<group>"; };
 		A08058671BF072960013862F /* XiMaLaYaCategoryViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiMaLaYaCategoryViewModel.h; sourceTree = "<group>"; };
 		A08058681BF072960013862F /* XiMaLaYaCategoryViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiMaLaYaCategoryViewModel.m; sourceTree = "<group>"; };
+		A08195951BFC0A1C0069F653 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		A081959A1BFC4F7D0069F653 /* HerosFreeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HerosFreeCell.h; sourceTree = "<group>"; };
+		A081959B1BFC4F7D0069F653 /* HerosFreeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HerosFreeCell.m; sourceTree = "<group>"; };
+		A081959D1BFC55240069F653 /* HeroViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroViewModel.h; sourceTree = "<group>"; };
+		A081959E1BFC55240069F653 /* HeroViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroViewModel.m; sourceTree = "<group>"; };
 		A0BF909C1BF19484006883BC /* MusicDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicDetailCell.h; sourceTree = "<group>"; };
 		A0BF909D1BF19484006883BC /* MusicDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicDetailCell.m; sourceTree = "<group>"; };
 		A0BF909F1BF1C081006883BC /* XiMaLaYaAlbumViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XiMaLaYaAlbumViewModel.h; path = "../../ViewController/喜马拉雅/XiMaLaYaAlbumViewModel.h"; sourceTree = "<group>"; };
@@ -368,6 +382,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A08195961BFC0A1C0069F653 /* libc++.tbd in Frameworks */,
 				A0769A141BF1DF1300C0CFAE /* AVFoundation.framework in Frameworks */,
 				3885C90B1BE8EA70009441EA /* libz.tbd in Frameworks */,
 				3885C9091BE8EA6A009441EA /* libstdc++.tbd in Frameworks */,
@@ -707,6 +722,10 @@
 				A071423F1BF434B600F335CE /* ZBItemListCell.m */,
 				A071424A1BF4729E00F335CE /* SumAbilityHeaderView.h */,
 				A071424B1BF4729E00F335CE /* SumAbilityHeaderView.m */,
+				A081959A1BFC4F7D0069F653 /* HerosFreeCell.h */,
+				A081959B1BFC4F7D0069F653 /* HerosFreeCell.m */,
+				A007BB8D1C0548D900EDDBF0 /* HerosAllCell.h */,
+				A007BB8E1C0548D900EDDBF0 /* HerosAllCell.m */,
 			);
 			path = "多玩";
 			sourceTree = "<group>";
@@ -812,6 +831,8 @@
 				A0CEE7B51BEB0667002F5DDC /* DuoWanTabBarController.m */,
 				A0E2D5E91BF2CDEE0023577F /* DuoWanHeroViewController.h */,
 				A0E2D5EA1BF2CDEE0023577F /* DuoWanHeroViewController.m */,
+				A02A4AF11C0488960065BD74 /* HeroListViewController.h */,
+				A02A4AF21C0488960065BD74 /* HeroListViewController.m */,
 				A0E2D5EC1BF2CE1F0023577F /* DuoWanBaiKeViewController.h */,
 				A0E2D5ED1BF2CE1F0023577F /* DuoWanBaiKeViewController.m */,
 				A0E2D5EF1BF2CE4C0023577F /* DuoWanSearchViewController.h */,
@@ -882,6 +903,8 @@
 				A071423C1BF4331600F335CE /* ZBItemListViewModel.m */,
 				A07142441BF4681100F335CE /* SumAbilityViewModel.h */,
 				A07142451BF4681100F335CE /* SumAbilityViewModel.m */,
+				A081959D1BFC55240069F653 /* HeroViewModel.h */,
+				A081959E1BFC55240069F653 /* HeroViewModel.m */,
 			);
 			path = "多玩盒子";
 			sourceTree = "<group>";
@@ -927,6 +950,7 @@
 		FA3445AEA3874C1D4FE61EAF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A08195951BFC0A1C0069F653 /* libc++.tbd */,
 				A0769A131BF1DF1300C0CFAE /* AVFoundation.framework */,
 				3885C90A1BE8EA70009441EA /* libz.tbd */,
 				3885C9081BE8EA6A009441EA /* libstdc++.tbd */,
@@ -1102,7 +1126,9 @@
 				A0CEE7BF1BEB0722002F5DDC /* RankListViewController.m in Sources */,
 				A0E2D6001BF318ED0023577F /* BestGroupDetailViewController.m in Sources */,
 				A0CEE7BC1BEB06F3002F5DDC /* MyInfoViewController.m in Sources */,
+				A081959F1BFC55240069F653 /* HeroViewModel.m in Sources */,
 				A0E2D5EB1BF2CDEE0023577F /* DuoWanHeroViewController.m in Sources */,
+				A081959C1BFC4F7D0069F653 /* HerosFreeCell.m in Sources */,
 				A0CEE7941BEB047A002F5DDC /* DuoWanHeroSkinModel.m in Sources */,
 				A071424C1BF4729E00F335CE /* SumAbilityHeaderView.m in Sources */,
 				A08058691BF072960013862F /* XiMaLaYaCategoryViewModel.m in Sources */,
@@ -1148,6 +1174,8 @@
 				A07142311BF4292C00F335CE /* BestGroupDetailIntroCell.m in Sources */,
 				A0CEE7A11BEB047A002F5DDC /* XiMaLaYaAlbumModel.m in Sources */,
 				A0E2D5EE1BF2CE1F0023577F /* DuoWanBaiKeViewController.m in Sources */,
+				A007BB8F1C0548D900EDDBF0 /* HerosAllCell.m in Sources */,
+				A02A4AF31C0488960065BD74 /* HeroListViewController.m in Sources */,
 				A07142431BF467C900F335CE /* SumAbilityViewController.m in Sources */,
 				3886C0C11BD74B090014E661 /* BaseModel.m in Sources */,
 				A0CEE7901BEB047A002F5DDC /* DuoWanGiftModel.m in Sources */,
@@ -1300,7 +1328,7 @@
 					"$(PROJECT_DIR)/BaseProject/Vendor/umeng_ios_social_sdk_4.2-2.5_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
 					"$(PROJECT_DIR)/BaseProject/Vendor/umeng_ios_social_sdk_4.2-2.5_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Wechat",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wj.BaseProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wj.JWKuaiXun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1328,7 +1356,7 @@
 					"$(PROJECT_DIR)/BaseProject/Vendor/umeng_ios_social_sdk_4.2-2.5_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
 					"$(PROJECT_DIR)/BaseProject/Vendor/umeng_ios_social_sdk_4.2-2.5_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Wechat",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wj.BaseProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wj.JWKuaiXun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

@@ -70,7 +70,6 @@
 		191267C2E1F5E182E04A3D80D16086FF /* UICollectionViewLayout+ASConvenience.m in Sources */ = {isa = PBXBuildFile; fileRef = D321BB49035BE1F4498AAA228F977D06 /* UICollectionViewLayout+ASConvenience.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		199D4D1BD7B63EE0E11E6712733ECBF7 /* WMPageConst.h in Headers */ = {isa = PBXBuildFile; fileRef = F4C273EC8FAA5C15C145319FCA1A5A2F /* WMPageConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A621186A78D0E9EDEB2D3ECEC1DB88A /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2209FF2F73BC160528D71E5CFC8D4E97 /* UIProgressView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		1ABF0E51BAF34CB8A37291F88BB63472 /* WMMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 126C90D1DBE49B8E8915D13911B4D2DC /* WMMenuItem.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		1B2F3D8DDFDA028A5FBF9D9571A59F20 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EDEDDC040F6D4777908119D3395358 /* MASConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		1B8B946E9317421B25BB8BBBE34EC888 /* ASDisplayNode+AsyncDisplay.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6D1EC835A660B3CE1EEBB26F2CD5C3C3 /* ASDisplayNode+AsyncDisplay.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		1B8EF84C3BC4546EC054EF9EFB3F0AD3 /* TPKeyboardAvoiding-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F1BBC7CA4E203C5921B9E8494F800D /* TPKeyboardAvoiding-dummy.m */; };
@@ -171,6 +170,7 @@
 		3C6227087A9E105DB1B3A2B09B06BBA0 /* NSIndexSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A505BF3B7D38B43F5005EC03E68688EF /* NSIndexSet+BlocksKit.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		3C6B7DDD2D1D28F6D9F97749ADA245E4 /* _ASDisplayView.h in Headers */ = {isa = PBXBuildFile; fileRef = AEB556BA8B22BD0232C8B10AEE91A4E3 /* _ASDisplayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3CAB03CE944BBD5BD312744F4DC4ED0A /* NSObject+MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BF01F3E70710A2F19A9A62B4E36E895 /* NSObject+MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CAFE0B28C95677943B9C7BDB2278B27 /* WMMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD74A13728E49697D76A533207B16F66 /* WMMenuView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		3CF5DE3EC202C9678B0120CB3CC93FE3 /* NSIndexSet+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 156BE5887E9214EE8FD87D653B7006BB /* NSIndexSet+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3D0F69C4CA35EB6A1F686BA88B19B4F6 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EA47E2CC4A89D5EE53002C0EFA7B34 /* FMDB-dummy.m */; };
 		3D519C89FEAE0951AE052F65A16D088E /* FUITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DF2F13E59B91F5ACA11E3BA9924808 /* FUITextField.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -235,6 +235,7 @@
 		541F9B734C20637D5171176AC001B554 /* NSSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E8100617E3DBFD922DE82D4E0656B7 /* NSSet+BlocksKit.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		5467BA80FE76E5928DBC92FCA8F319DD /* UIAlertView+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = BC977A82732CBB0F484A2CA86578B3F1 /* UIAlertView+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		54B79A8FA7CDA1ABFD60BA1D5DDED418 /* ImageSelectedSmallOn.png in Resources */ = {isa = PBXBuildFile; fileRef = F0BA53B6EA375D5AFE3ECF529F57EDBA /* ImageSelectedSmallOn.png */; };
+		54BF374F8928E15895E04BE799EC9DD5 /* WMMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 126C90D1DBE49B8E8915D13911B4D2DC /* WMMenuItem.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		54D2C4C16B89272182615921176C0BE3 /* FUISegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E4826270CB28C37B542D2B8C06F57D /* FUISegmentedControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5539A292EFC958D90F290DBA5FF86220 /* DDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 54E812BCB145D4A496BD177DAD3FAD87 /* DDDispatchQueueLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5562B2A33DCCDD28A596EE579024C7AD /* ImageError.png in Resources */ = {isa = PBXBuildFile; fileRef = 23FD7F25E48D37D0D019BE1D90BDE1A0 /* ImageError.png */; };
@@ -275,7 +276,6 @@
 		635C6117BA4F7576BC19343A7965A8BD /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = C784CFB670A52B6512E42131662C6BD0 /* MASViewAttribute.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		638E737DE7EE63BBC83C383F9C1DC320 /* ASRangeHandlerPreload.mm in Sources */ = {isa = PBXBuildFile; fileRef = C3C28C5E84F6337DAAFE81BCAD3868E4 /* ASRangeHandlerPreload.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		63E6E0FBBF44FA7B3405F6EEE2450CC3 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B722D815C9AED4D71B293ECC5DC8952 /* UIImageView+HighlightedWebCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		63EE396725360C671F5640C27F81AA8C /* WMFooldView.m in Sources */ = {isa = PBXBuildFile; fileRef = E940E8F2B1E744BE7CABF4AEAE17F708 /* WMFooldView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		6408C7FE6D7C71D2304DF04486569403 /* MJRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 39963782D4040F922EE400D77FCC1FA4 /* MJRefreshGifHeader.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		6421FDCED5AA1217B6FE8B014D9A0B24 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7A64952CE7D88ED4BCAC71D90A1E69 /* AFSecurityPolicy.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		6475050C8BA464772209BD6AF03F1EB1 /* DDMultiFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 119197770DC0C963B1B541EC4C12C0AC /* DDMultiFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -290,7 +290,6 @@
 		69DC2FB163EAB23712D9C3C13C72518E /* SDWebImageDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = EF825A7B8E7B599C53E7E6F15D6A3CC8 /* SDWebImageDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A3D22AEF9BE5D4A3962065AE4EE45A4 /* _ASAsyncTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F2A38344F8EAB832DE7CBF486CA4990 /* _ASAsyncTransaction.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A4981177CD74BAE7E80FB436E0165E1 /* UIFont+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 631A7AF9F0BB07512AE6DAD3D614089E /* UIFont+FlatUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A6655F4C13ACBC9FD2AF9AF4A6E3916 /* WMMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD74A13728E49697D76A533207B16F66 /* WMMenuView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		6AA521F80464C6179A4DB6275E32EC83 /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC101773AE4C55906ADA229392008D1 /* MJRefreshConst.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		6AB319828573AEF267BA6AEB9F6BF7BC /* NSMutableDictionary+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F00D538288F4ED44B495833A903447F3 /* NSMutableDictionary+BlocksKit.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		6AD543650CF1353C4158729BFBDF81A0 /* UIProgressView+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DAFFCD0D04E6BE6A2A404916B21206D9 /* UIProgressView+FlatUI.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -365,6 +364,7 @@
 		8BD2106902F72E2E4703C4BCCA3AA0F1 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BDA266935E77C64BD83CE01C9F4089 /* SVProgressHUD.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		8C95361618EE028783FD99EE51C156AD /* ASCenterLayoutSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = B94C46BAD8CBFD60B85D694A7B779B7B /* ASCenterLayoutSpec.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		8CD971D70DE88AD0347AF504550FCEB2 /* FUIButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 23AD8F5D3936AE4A07BB118AF3A902B3 /* FUIButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E5CBB68E0B4335C9BF502431C1EFF02 /* WMProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 883C675FFC61DC1B17051A090C9F79BB /* WMProgressView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		8EF8EB8E5D4F2474B8FD4C1E4A851A68 /* ImageSelectedOn.png in Resources */ = {isa = PBXBuildFile; fileRef = B516B376C78615F49C03B7B93685E3CD /* ImageSelectedOn.png */; };
 		8F0689433B4C4333609A9803A15AD4E8 /* WMProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = B55C905E42B480A1D7B1B3242BA091E0 /* WMProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F754F7AFBCDC60A0003FE69BE3265C2 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEDF1814E35D5251B509EECA859DBF3 /* NSObject+MJKeyValue.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -390,7 +390,6 @@
 		948FB52DC0736F82193268CB56B81666 /* ASDataController+Subclasses.h in Headers */ = {isa = PBXBuildFile; fileRef = AD8C3D46BC094E32FD90B6A674E977DB /* ASDataController+Subclasses.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94EF9B9483DB7448D2F2F97925391330 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F0A66F622517556E90D17132FEF3EB /* DDASLLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		956C2AA23159B5A686E23659371FA775 /* SWCellScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = D36662271ECEE1E1F006D7D126933991 /* SWCellScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		963C443C5CAA7529988F84E50B4D75E6 /* WMProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 883C675FFC61DC1B17051A090C9F79BB /* WMProgressView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		96CC5B238DD4C513D4BFC3533524A95D /* ASDimension.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8CF665D2BA9DAFCE027AFEE3551A8010 /* ASDimension.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		9734B73DB91553CC9279C5DEF98B973F /* MJPropertyKey.h in Headers */ = {isa = PBXBuildFile; fileRef = E2996AA270AF909B509E7376562C6EA8 /* MJPropertyKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		976A414A781FD46DEB7FCB547DC45834 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 459072973AFE343BA1B5119C35797A53 /* CoreText.framework */; };
@@ -410,7 +409,6 @@
 		9E45A996F7C59A0D198884CCC6256919 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A12450D5CE2540B816F9B74E7EA80346 /* AssetsLibrary.framework */; };
 		9E549C44393EB0C4D1F3FAD4EACA6614 /* AsyncDisplayKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A80C7CCB036278BC94B90FBF086C44E /* AsyncDisplayKit-dummy.m */; };
 		9EB8F6E166DF1CB0B107B35CBD6CCA8D /* ImageSelectedOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 71889C3E52D33A862728CDA7D4F45B82 /* ImageSelectedOff.png */; };
-		9EBA3E1B4DA3977F97031707CA4DA916 /* WMPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C0D2DD0B510A3408A8B98E62A34120 /* WMPageController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		9ED43A2D19B36C341DBAA4B331F8D421 /* ASTextNodeWordKerner.h in Headers */ = {isa = PBXBuildFile; fileRef = 341BDDB18A35FC322C53877A7BE6015D /* ASTextNodeWordKerner.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F413FFBF9D2B4F760C87A520E7E4C43 /* ASIndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = D5BF5A1FBEA8489833E3C6176F8B836A /* ASIndexPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F9CFBD464085524F455C4D19211E69E /* NSMutableDictionary+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C20A8C9E8A5D56822A5588B99E22BFB1 /* NSMutableDictionary+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -424,6 +422,7 @@
 		A229FCF9FEBBF16977B33AB2FEF23830 /* UIBarButtonItem+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 62CC93C4C8609C83B9CF3322DE199323 /* UIBarButtonItem+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A27CB7D7AC8FE965D3445E14BEDB2D80 /* MWCaptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1446E6856A7D4E99E12492D0101155 /* MWCaptionView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A28588D1CCB5253CF80509F30A1AF1A5 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 35681610D560526C625695DF6F6BB934 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2BDD54A9FC18BAC577601B4C23BEC00 /* WMPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C0D2DD0B510A3408A8B98E62A34120 /* WMPageController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A2D0EE5602557677B5D9AB8D46F2F1AF /* DDLog+LOGV.h in Headers */ = {isa = PBXBuildFile; fileRef = D4AFDB816F56E76EE4FC433B1F4DA76B /* DDLog+LOGV.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A2F19F816F2752816146D876FB861F06 /* UITextField+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D48A59ED4554D6EC2A1CE27564FC81AB /* UITextField+BlocksKit.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A34EF7C35E4E0657AFC8B4BA0B343867 /* CocoaLumberjack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0298A453922ABC9686F90FBA071D7FDA /* CocoaLumberjack-dummy.m */; };
@@ -541,6 +540,7 @@
 		D12FE58D12791B9BCC7DB765F1047104 /* ASLayoutablePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D00DF151AEBDCAB2A2DC324EC6ECA7 /* ASLayoutablePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D144088CD1D9AC891C2960EE65CAC7DE /* MWPhotoBrowser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAF4C4C87E7A5C9C3317FA0E4ACE155 /* MWPhotoBrowser-dummy.m */; };
 		D15B14F704BB9752F3C26465FCC5220E /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 391E3BB52B3716A0749FC1F988D62506 /* AFHTTPSessionManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D1BD24734A06D33D7647BA6F920A2EC5 /* WMFooldView.m in Sources */ = {isa = PBXBuildFile; fileRef = E940E8F2B1E744BE7CABF4AEAE17F708 /* WMFooldView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		D1E8B05B69D0B1F2DA9FA3D017D4FBDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BF146E89FEE3C2C50A9397E8186200 /* Foundation.framework */; };
 		D23E725899C1A0D2448D5904EB3A8070 /* NSMutableArray+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D5BF8CD64BB38B7B51806141ECB280 /* NSMutableArray+BlocksKit.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		D28E38119EFE9909E03D6D29F1FF42EF /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA0F6C0EF1A57EB0DC990E29A4A53A3 /* SDWebImageDecoder.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -4140,12 +4140,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63EE396725360C671F5640C27F81AA8C /* WMFooldView.m in Sources */,
-				1ABF0E51BAF34CB8A37291F88BB63472 /* WMMenuItem.m in Sources */,
-				6A6655F4C13ACBC9FD2AF9AF4A6E3916 /* WMMenuView.m in Sources */,
+				D1BD24734A06D33D7647BA6F920A2EC5 /* WMFooldView.m in Sources */,
+				54BF374F8928E15895E04BE799EC9DD5 /* WMMenuItem.m in Sources */,
+				3CAFE0B28C95677943B9C7BDB2278B27 /* WMMenuView.m in Sources */,
 				30A4259630942D28C4FAA4B137278BCC /* WMPageController-dummy.m in Sources */,
-				9EBA3E1B4DA3977F97031707CA4DA916 /* WMPageController.m in Sources */,
-				963C443C5CAA7529988F84E50B4D75E6 /* WMProgressView.m in Sources */,
+				A2BDD54A9FC18BAC577601B4C23BEC00 /* WMPageController.m in Sources */,
+				8E5CBB68E0B4335C9BF502431C1EFF02 /* WMProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
